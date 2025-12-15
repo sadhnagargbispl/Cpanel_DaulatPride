@@ -10,3 +10,16 @@ D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.dll
 D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\refint\Daulatpride.Domain.dll
 D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.pdb
 D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\ref\Daulatpride.Domain.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\bin\Debug\net8.0\Daulatpride.Domain.deps.json
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\bin\Debug\net8.0\Daulatpride.Domain.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\bin\Debug\net8.0\Daulatpride.Domain.pdb
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.csproj.AssemblyReference.cache
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.AssemblyInfoInputs.cache
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.AssemblyInfo.cs
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.csproj.CoreCompileInputs.cache
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.sourcelink.json
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\obj\Debug\net8.0\refint\Daulatpride.Domain.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.pdb
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Domain\obj\Debug\net8.0\ref\Daulatpride.Domain.dll

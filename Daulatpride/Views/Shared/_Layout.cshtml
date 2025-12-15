@@ -5,44 +5,154 @@
     <title>@ViewData["Title"]</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" href="~/dashboard_files/favicon.png">
+    <link rel="stylesheet" href="~/dashboard_files/backend-plugin.min.css">
+    <link rel="stylesheet" href="~/dashboard_files/backend.css">
+    <link rel="stylesheet" href="~/dashboard_files/all.min.css">
+    <link rel="stylesheet" href="~/dashboard_files/line-awesome.min.css">
+    <link rel="stylesheet" href="~/dashboard_files/remixicon.css">
+    <link rel="stylesheet" href="~/dashboard_files/dripicons.css">
+    <link rel="stylesheet" href="./dashboard_files/main.css">
+    <link rel="stylesheet" href="~/dashboard_files/main(1).css">
+    <link rel="stylesheet" href="~/dashboard_files/main(2).css">
+    <link rel="stylesheet" href="~/dashboard_files/main(3).css">
+    <link rel="stylesheet" href="~/dashboard_files/mapbox-gl.css">
+    <link rel="stylesheet" href="~/dashboard_files/font-awesome.min.css">
+    <link rel="stylesheet" href="~/dashboard_files/line-awesome.min(1).css">
+    <link rel="stylesheet" href="~/dashboard_files/all.min(1).css">
 
-    <!-- ===== CSS ===== -->
-    <link rel="stylesheet" href="~/assets/dashboard_files/backend-plugin.min.css">
-    <link rel="stylesheet" href="~/assets/dashboard_files/backend.css">
-    <link rel="stylesheet" href="~/assets/dashboard_files/all.min.css">
-    <link rel="stylesheet" href="~/assets/dashboard_files/line-awesome.min.css">
-    <link rel="stylesheet" href="~/assets/dashboard_files/remixicon.css">
-    <link rel="stylesheet" href="~/assets/dashboard_files/dripicons.css">
-    <link rel="stylesheet" href="~/assets/dashboard_files/main.css">
-    <link rel="stylesheet" href="~/assets/dashboard_files/mapbox-gl.css">
-    <link rel="stylesheet" href="~/assets/dashboard_files/tooltip.css">
-    <link rel="stylesheet" href="~/assets/dashboard_files/util.css">
+
+    <link id="load-css-0" rel="stylesheet" type="text/css" href="~/dashboard_files/tooltip.css">
+    <link id="load-css-1" rel="stylesheet" type="text/css" href="~/dashboard_files/util.css">
+
+    <script type="text/javascript" charset="UTF-8" src="~/dashboard_files/jsapi_compiled_default_module.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="~/dashboard_files/jsapi_compiled_graphics_module.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="~/dashboard_files/jsapi_compiled_ui_module.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="~/dashboard_files/jsapi_compiled_corechart_module.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="~/dashboard_files/loader.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/dashboard_files/cryptrad_stylesheet.css">
 </head>
 
-<body>
+<body data-new-gr-c-s-check-loaded="14.1121.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+
+    <div id="loading" style="display: none;">
+        <div id="loading-center">
+        </div>
+    </div>
+
 
     <div class="wrapper">
-        <div class="dashboard2-header-style">
-            <div class="iq-top-navbar">
+        <div class="dashboard2-header-style ">
+            <div class="iq-top-navbar analytic  rtl-iq-top-navbars">
                 <div class="container">
-                    <div class="iq-navbar-custom d-flex justify-content-between">
-                        <div class="iq-navbar-logo">
-                            <img src="~/panel-images/demo_logo.png" height="40" />
-                            <span class="text-white ms-2">MC1736043</span>
+                    <div class="iq-navbar-custom d-flex align-items-center justify-content-between">
+                        <div class="iq-navbar-logo d-flex align-items-center justify-content-between">
+                            <i class="fa fa-bars wrapper-menu"></i>
+
+                            <a href="#" class="header-logo">
+                                <img src="~/dashboard_files/logo.png" class="img-fluid rounded-normal" alt="logo">
+                            </a>
+                            <span id="Label1" class="Sname" style="color:#fff;">MC1736043</span>
                         </div>
-                        <span class="text-white">RS123456</span>
+                        <div class="iq-search-bar device-search" style="display: none">
+                            <div class="searchbox">
+                                <input type="text" class="text search-input" placeholder="Type here to search...">
+                                <a class="search-link" href="#"><i class="ri-search-line"></i></a>
+                            </div>
+                        </div>
+                        <nav class="navbar navbar-expand-lg navbar-light px-0">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto navbar-list align-items-center">
+                                    <li class="nav-item iq-full-screen">
+                                        <span id="lblwelcomename" class="fname">RS123456</span>
+                                    </li>
+                                    <li class="caption-content">
+                                        <a href="#" class="iq-user-toggle">
+                                            <img src="~/dashboard_files/01.jpg" class="img-fluid rounded" alt="user">
+                                        </a>
+                                        <div class="iq-user-dropdown  rtl-iq-user-dropdown">
+                                            <div class="card">
+                                                <div class="card-header d-flex justify-content-between align-items-center mb-0">
+                                                    <div class="header-title">
+                                                        <h4 class="card-title mb-0">Profile</h4>
+                                                    </div>
+                                                    <div class="close-data text-right badge badge-primary cursor-pointer"><i class="fa fa-times"></i></div>
+
+                                                </div>
+                                                <div class="data-scrollbar" data-scroll="2" data-scrollbar="true" tabindex="-1" style="overflow: hidden; outline: none;">
+                                                    <div class="scroll-content">
+                                                        <div class="card-body">
+                                                            <div class="profile-header">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6 col-md-6  col-6 pr-0">
+                                                                        <div class="profile-details text-center">
+                                                                            <a href="#" class="iq-sub-card bg-primary-light rounded-small p-2">
+                                                                                <div class="rounded iq-card-icon-small">
+                                                                                    <i class="fa fa-home"></i>
+                                                                                </div>
+                                                                                <h6 class="mb-0 ">Home</h6>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6  col-md-6 col-6">
+                                                                        <div class="profile-details text-center">
+                                                                            <a href="#" class="iq-sub-card bg-danger-light rounded-small p-2">
+                                                                                <div class="rounded iq-card-icon-small">
+                                                                                    <i class="fa fa-usd"></i>
+
+                                                                                </div>
+                                                                                <h6 class="mb-0 ">Cryptrad</h6>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6 col-md-6  col-6 pr-0">
+                                                                        <div class="profile-details text-center">
+                                                                            <a href="#" class="iq-sub-card bg-success-light rounded-small p-2">
+                                                                                <div class="rounded iq-card-icon-small">
+                                                                                    <i class="fa fa-newspaper-o"></i>
+                                                                                </div>
+                                                                                <h6 class="mb-0 ">Orders</h6>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6 col-md-6  col-6">
+                                                                        <div class="profile-details text-center">
+                                                                            <a href="#" class="iq-sub-card bg-info-light rounded-small p-2">
+                                                                                <div class="rounded iq-card-icon-small">
+                                                                                    <i class="fa fa-sign-out"></i>
+                                                                                </div>
+                                                                                <h6 class="mb-0 ">Logout</h6>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="p-3"></div>
+                                                        </div>
+                                                    </div><div class="scrollbar-track scrollbar-track-x" style="display: none;"><div class="scrollbar-thumb scrollbar-thumb-x" style="width: 350px; transform: translate3d(0px, 0px, 0px);"></div></div><div class="scrollbar-track scrollbar-track-y" style="display: none;"><div class="scrollbar-thumb scrollbar-thumb-y" style="height: 931px; transform: translate3d(0px, 0px, 0px);"></div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
                 </div>
             </div>
+
             <div class="bg-analytic-horizontal rtl-bg-analytic-horizontal">
                 <div class="container">
                     <div class="white-bg-menu">
                         <div class="iq-menu-horizontal">
                             <nav class="iq-sidebar-menu">
                                 <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
-                                    <a href="#" class="header-logo">
-                                        <img src="dashboard_files/logo.png" class="img-fluid rounded-normal" alt="logo">
+                                    <a href="home-cryptrad.html" class="header-logo">
+                                        <img src="~/dashboard_files/logo.png" class="img-fluid rounded-normal" alt="logo">
                                     </a>
                                     <div class="iq-menu-bt-sidebar">
                                         <i class="fa fa-times wrapper-menu"></i>
@@ -51,7 +161,7 @@
                                 <ul id="iq-sidebar-toggle" class="iq-menu d-flex mn-center">
 
                                     <li class="active">
-                                        <a href="#">
+                                        <a href="dashboard.html">
                                             <i class="fa fa-home"></i><span>Dashboard</span>
                                         </a>
                                     </li>
@@ -146,17 +256,36 @@
                 </div>
             </div>
         </div>
-        <!-- ===== PAGE CONTENT ===== -->
+
+        <link href="~/dashboard_files/Loader.css" rel="stylesheet">
+
+
         @RenderBody()
     </div>
 
-    <!-- ===== JS ===== -->
-    <script src="~/assets/dashboard_files/backend-bundle.min.js"></script>
-    <script src="~/assets/dashboard_files/masonry.pkgd.min.js"></script>
-    <script src="~/assets/dashboard_files/imagesloaded.pkgd.min.js"></script>
-    <script src="~/assets/dashboard_files/mapbox-gl.js"></script>
-    <script src="~/assets/dashboard_files/mapbox.js"></script>
-    <script src="~/assets/dashboard_files/main.js"></script>
-    <script src="~/assets/dashboard_files/app.js"></script>
+    <script src="~/dashboard_files/WebResource.axd" type="text/javascript"></script>
+    <script src="~/dashboard_files/customeupdated.js"></script>
+    <script type="text/javascript" src="~/dashboard_files/loader.js(1)"></script>
+    <script src="~/dashboard_files/customeupdated.js"></script>
+
+    <script src="~/dashboard_files/backend-bundle.min.js"></script>
+    <script src="~/dashboard_files/flex-tree.min.js"></script>
+    <script src="~/dashboard_files/tree.js"></script>
+    <script src="~/dashboard_files/table-treeview.js"></script>
+    <script src="~/dashboard_files/masonry.pkgd.min.js"></script>
+    <script src="~/dashboard_files/imagesloaded.pkgd.min.js"></script>
+    <script src="~/dashboard_files/mapbox-gl.js"></script>
+    <script src="~/dashboard_files/mapbox.js"></script>
+    <script src="~/dashboard_files/main.js"></script>
+    <script src="~/dashboard_files/main.js(1)"></script>
+    <script src="~/dashboard_files/main.js(2)"></script>
+    <script src="~/dashboard_files/main.js(3)"></script>
+    <script src="~/dashboard_files/sweetalert.js"></script>
+    <script src="~/dashboard_files/vector-map-custom.js"></script>
+    <script src="~/dashboard_files/chart-custom.js"></script>
+    <script src="~/dashboard_files/slider.js"></script>
+    <script src="~/dashboard_files/app.js"></script>
+
+
 </body>
 </html>

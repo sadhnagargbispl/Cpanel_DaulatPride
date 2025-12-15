@@ -15,3 +15,21 @@ D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.dll
 D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\refint\Daulatpride.Application.dll
 D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.pdb
 D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\ref\Daulatpride.Application.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Application.deps.json
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Application.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Application.pdb
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Domain.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Infrastructure.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Domain.pdb
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Infrastructure.pdb
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.csproj.AssemblyReference.cache
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.AssemblyInfoInputs.cache
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.AssemblyInfo.cs
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.csproj.CoreCompileInputs.cache
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.sourcelink.json
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpr.AD163EF1.Up2Date
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\refint\Daulatpride.Application.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.pdb
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\ref\Daulatpride.Application.dll

@@ -13,3 +13,19 @@ D:\Mvc\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.dl
 D:\Mvc\Daulatpride.Infrastructure\obj\Debug\net8.0\refint\Daulatpride.Infrastructure.dll
 D:\Mvc\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.pdb
 D:\Mvc\Daulatpride.Infrastructure\obj\Debug\net8.0\ref\Daulatpride.Infrastructure.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\bin\Debug\net8.0\Daulatpride.Infrastructure.deps.json
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\bin\Debug\net8.0\Daulatpride.Infrastructure.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\bin\Debug\net8.0\Daulatpride.Infrastructure.pdb
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\bin\Debug\net8.0\Daulatpride.Domain.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\bin\Debug\net8.0\Daulatpride.Domain.pdb
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.csproj.AssemblyReference.cache
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.AssemblyInfoInputs.cache
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.AssemblyInfo.cs
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.sourcelink.json
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpr.177834C9.Up2Date
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\refint\Daulatpride.Infrastructure.dll
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.pdb
+E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\ref\Daulatpride.Infrastructure.dll

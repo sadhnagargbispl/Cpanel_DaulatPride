@@ -9,47 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Daulatpride
 build_property.RootNamespace = Daulatpride
-build_property.ProjectDir = D:\Mvc\Daulatpride\
+build_property.ProjectDir = E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Mvc\Daulatpride
+build_property.MSBuildProjectDirectory = E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[D:/Mvc/Daulatpride/Views/Account/Login.cshtml]
+[E:/Sadhna Garg/GitHubC\#/Cpanel_DaulatPride/Daulatpride/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/Daulatpride/Views/Home/Index.cshtml]
+[E:/Sadhna Garg/GitHubC\#/Cpanel_DaulatPride/Daulatpride/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/Daulatpride/Views/Home/Privacy.cshtml]
+[E:/Sadhna Garg/GitHubC\#/Cpanel_DaulatPride/Daulatpride/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/Daulatpride/Views/Registration/Registration.cshtml]
+[E:/Sadhna Garg/GitHubC\#/Cpanel_DaulatPride/Daulatpride/Views/Registration/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXFJlZ2lzdHJhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/Daulatpride/Views/Shared/Error.cshtml]
+[E:/Sadhna Garg/GitHubC\#/Cpanel_DaulatPride/Daulatpride/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/Daulatpride/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Sadhna Garg/GitHubC\#/Cpanel_DaulatPride/Daulatpride/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/Daulatpride/Views/_ViewImports.cshtml]
+[E:/Sadhna Garg/GitHubC\#/Cpanel_DaulatPride/Daulatpride/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/Daulatpride/Views/_ViewStart.cshtml]
+[E:/Sadhna Garg/GitHubC\#/Cpanel_DaulatPride/Daulatpride/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/Daulatpride/Views/Shared/_Layout.cshtml]
+[E:/Sadhna Garg/GitHubC\#/Cpanel_DaulatPride/Daulatpride/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-h8sz0ncyy6
