@@ -1,0 +1,17 @@
+D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.csproj.AssemblyReference.cache
+D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.AssemblyInfoInputs.cache
+D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.AssemblyInfo.cs
+D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.csproj.CoreCompileInputs.cache
+D:\Mvc\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Application.deps.json
+D:\Mvc\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Application.dll
+D:\Mvc\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Application.pdb
+D:\Mvc\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Domain.dll
+D:\Mvc\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Infrastructure.dll
+D:\Mvc\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Domain.pdb
+D:\Mvc\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Infrastructure.pdb
+D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\Daulatpr.AD163EF1.Up2Date
+D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.dll
+D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\refint\Daulatpride.Application.dll
+D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.pdb
+D:\Mvc\Daulatpride.Application\obj\Debug\net8.0\ref\Daulatpride.Application.dll

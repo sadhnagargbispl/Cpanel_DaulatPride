@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Mvc\\Daulatpride\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|d:\\mvc\\daulatpride\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|d:\\mvc\\daulatpride\\views\\registration\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:views\\registration\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8632C13-D953-4505-A77C-A755EC4AD985}|..\\Daulatpride.Domain\\Daulatpride.Domain.csproj|d:\\mvc\\daulatpride.domain\\entities\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|d:\\mvc\\daulatpride\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|d:\\mvc\\daulatpride\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|d:\\mvc\\daulatpride\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|d:\\mvc\\daulatpride\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CE7415-2A22-4639-A39C-B4F445DF3FF5}|..\\Daulatpride.Infrastructure\\Daulatpride.Infrastructure.csproj|d:\\mvc\\daulatpride.infrastructure\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CE7415-2A22-4639-A39C-B4F445DF3FF5}|..\\Daulatpride.Infrastructure\\Daulatpride.Infrastructure.csproj|d:\\mvc\\daulatpride.infrastructure\\dappercontext\\dapperdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|d:\\mvc\\daulatpride\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "D:\\Mvc\\Daulatpride\\Views\\Registration\\Registration.cshtml",
+              "RelativeDocumentMoniker": "Views\\Registration\\Registration.cshtml",
+              "ToolTip": "D:\\Mvc\\Daulatpride\\Views\\Registration\\Registration.cshtml",
+              "RelativeToolTip": "Views\\Registration\\Registration.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T11:27:12.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "D:\\Mvc\\Daulatpride\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistrationController.cs",
+              "ToolTip": "D:\\Mvc\\Daulatpride\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "Controllers\\RegistrationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:25:33.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRegistration.cs",
+              "DocumentMoniker": "D:\\Mvc\\Daulatpride.Domain\\Entities\\UserRegistration.cs",
+              "RelativeDocumentMoniker": "..\\Daulatpride.Domain\\Entities\\UserRegistration.cs",
+              "ToolTip": "D:\\Mvc\\Daulatpride.Domain\\Entities\\UserRegistration.cs",
+              "RelativeToolTip": "..\\Daulatpride.Domain\\Entities\\UserRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:04:39.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Mvc\\Daulatpride\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Mvc\\Daulatpride\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-15T09:41:41.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DapperDbContext.cs",
+              "DocumentMoniker": "D:\\Mvc\\Daulatpride.Infrastructure\\DapperContext\\DapperDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Daulatpride.Infrastructure\\DapperContext\\DapperDbContext.cs",
+              "ToolTip": "D:\\Mvc\\Daulatpride.Infrastructure\\DapperContext\\DapperDbContext.cs",
+              "RelativeToolTip": "..\\Daulatpride.Infrastructure\\DapperContext\\DapperDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:32:02.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "D:\\Mvc\\Daulatpride.Infrastructure\\Repository\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "..\\Daulatpride.Infrastructure\\Repository\\LoginRepository.cs",
+              "ToolTip": "D:\\Mvc\\Daulatpride.Infrastructure\\Repository\\LoginRepository.cs",
+              "RelativeToolTip": "..\\Daulatpride.Infrastructure\\Repository\\LoginRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAASwCYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T07:59:35.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Mvc\\Daulatpride\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Mvc\\Daulatpride\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T07:29:42.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Mvc\\Daulatpride\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Mvc\\Daulatpride\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:58:50.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Mvc\\Daulatpride\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Mvc\\Daulatpride\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswJUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:58:40.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Mvc\\Daulatpride\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Mvc\\Daulatpride\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:58:34.169Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

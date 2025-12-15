@@ -1,0 +1,1189 @@
+﻿
+.content-wrapper {
+    background-position: center;
+    background-image: url("../img/web/mobicryp%20minting%20web%20view.jpg") !important;
+    background-size: cover;
+    z-index: -10 !important;
+}
+
+
+.card {
+    background: transparent !important;
+    border: 0px !important;
+}
+
+.card-header {
+    border: 0px !important;
+}
+
+div#coinmarketcap-widget-marquee {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+
+.grid {
+    margin-top: 148px !important;
+    margin: 0px auto;
+    position: relative;
+    width: 500px;
+    height: 440px;
+}
+
+
+.a img {
+    width: 33%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: anim 10s linear infinite;
+}
+
+.new-19 img {
+    width: 47%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: ani 10s linear infinite;
+}
+
+.new-9 img {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: anim 10s linear infinite;
+}
+
+.new-7 img {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: ani 10s linear infinite;
+}
+
+.new-16 img {
+    width: 55%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: anim 10s linear infinite;
+}
+
+.arrow-circle img {
+    width: 51%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: ani 10s linear infinite;
+}
+
+.new-17 img {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: anim 10s linear infinite;
+}
+
+.new-6 img {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: ani 10s linear infinite;
+}
+
+.new-11 img {
+    width: 68%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: anim 10s linear infinite;
+}
+
+.new-12 img {
+    width: 76%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: ani 10s linear infinite;
+}
+
+.new-13 img {
+    width: 72%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: anim 10s linear infinite;
+}
+
+.new-2 img {
+    width: 89%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: ani 10s linear infinite;
+}
+
+.rectangle-circle img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: ani 10s linear infinite;
+}
+
+.circle img {
+    width: 91%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: anim 10s linear infinite;
+}
+
+@keyframes ani {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes anim {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+.sd-3 img {
+    width: 72%;
+    position: absolute;
+    top: -25.6%;
+    left: 81.4%;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.sd-2 img {
+    width: 72%;
+    position: absolute;
+    top: -25.4%;
+    bottom: 0;
+    right: 82%;
+    margin: auto;
+}
+
+.sd-1 img {
+    width: 65%;
+    position: absolute;
+    top: -139%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.secure-1 img {
+    width: 20%;
+    position: absolute;
+    top: -32%;
+    left: -4%;
+    margin: auto;
+    animation: upD1 3s linear infinite;
+}
+
+.secure-2 img {
+    width: 40%;
+    position: absolute;
+    top: -40%;
+    left: 85%;
+    margin: auto;
+    animation: upD2 2s linear infinite;
+}
+
+.secure-3 img {
+    width: 32%;
+    position: absolute;
+    top: 80%;
+    left: -40%;
+    margin: auto;
+    animation: upD3 3s linear infinite;
+}
+
+.secure-4 img {
+    width: 25%;
+    position: absolute;
+    top: 76%;
+    left: 133%;
+    margin: auto;
+    animation: upD4 2s linear infinite;
+}
+
+@keyframes upD1 {
+    0% {
+        top: -125px;
+        left: -34px;
+    }
+
+    50% {
+        top: -135px;
+        left: -40px;
+    }
+
+    70% {
+        top: -145px;
+        left: -35px;
+    }
+
+    100% {
+        top: -125px;
+        left: -34px;
+    }
+}
+
+@keyframes upD2 {
+    0% {
+        top: -170px;
+        left: 431px;
+    }
+
+    50% {
+        top: -180px;
+        left: 440px;
+    }
+
+    70% {
+        top: -175px;
+        left: 435px;
+    }
+
+    100% {
+        top: -170px;
+        left: 431px;
+    }
+}
+
+@keyframes upD3 {
+    0% {
+        top: 355px;
+        left: -200px;
+    }
+
+    50% {
+        top: 365px;
+        left: -210px;
+    }
+
+    70% {
+        top: 360px;
+        left: -205px;
+    }
+
+    100% {
+        top: 355px;
+        left: -200px;
+    }
+}
+
+@keyframes upD4 {
+    0% {
+        top: 349px;
+        left: 665px;
+    }
+
+    50% {
+        top: 360px;
+        left: 675px;
+    }
+
+    70% {
+        top: 355px;
+        left: 670px;
+    }
+
+    100% {
+        top: 349px;
+        left: 665px;
+    }
+}
+
+
+
+
+.rectangle-icon-1 img {
+    width: 24%;
+    position: absolute;
+    top: -20%;
+    left: -40%;
+    margin: auto;
+    animation: rectangleupdD1 3s linear infinite;
+}
+
+.rectangle-icon-2 img {
+    width: 20%;
+    position: absolute;
+    top: 110%;
+    left: 112%;
+    margin: auto;
+    animation: rectangleupdD2 2s linear infinite;
+}
+
+.rectangle-icon-3 img {
+    width: 32%;
+    position: absolute;
+    top: 113%;
+    left: 0px;
+    margin: auto;
+    animation: rectangleupdD3 3s linear infinite;
+}
+
+.rectangle-icon-4 img {
+    width: 20%;
+    position: absolute;
+    top: 18%;
+    left: 129%;
+    margin: auto;
+    animation: rectangleupdD4 3s linear infinite;
+}
+
+@keyframes rectangleupdD1 {
+    0% {
+        top: -86px;
+        left: -220px;
+    }
+
+    50% {
+        top: -95px;
+        left: -230px;
+    }
+
+    70% {
+        top: -90px;
+        left: -225px;
+    }
+
+    100% {
+        top: -86px;
+        left: -220px;
+    }
+}
+
+@keyframes rectangleupdD2 {
+    0% {
+        top: 445px;
+        left: 545px;
+    }
+
+    50% {
+        top: 435px;
+        left: 555px;
+    }
+
+    70% {
+        top: 450px;
+        left: 550px;
+    }
+
+    100% {
+        top: 445px;
+        left: 545px;
+    }
+}
+
+@keyframes rectangleupdD3 {
+    0% {
+        top: 490px;
+        left: 0px;
+    }
+
+    50% {
+        top: 480px;
+        left: 10px;
+    }
+
+    70% {
+        top: 495px;
+        left: 5px;
+    }
+
+    100% {
+        top: 490px;
+        left: 0px;
+    }
+}
+
+@keyframes rectangleupdD4 {
+    0% {
+        top: 97px;
+        left: 651px;
+    }
+
+    50% {
+        top: 110px;
+        left: 660px;
+    }
+
+    70% {
+        top: 92px;
+        left: 655px;
+    }
+
+    100% {
+        top: 97px;
+        left: 651px;
+    }
+}
+
+
+.dots-1 img {
+    width: 35%;
+    position: absolute;
+    top: 36%;
+    left: 145%;
+    margin: auto;
+    animation: scl 3s linear infinite;
+}
+
+.dots-1-one img {
+    width: 45%;
+    position: absolute;
+    top: 108%;
+    left: 134%;
+    margin: auto;
+    animation: scl 3s linear infinite;
+}
+
+.dots-1-two img {
+    width: 31%;
+    position: absolute;
+    top: 86%;
+    left: 84%;
+    margin: auto;
+    animation: scl 3s linear infinite;
+}
+
+.dots-1-three img {
+    width: 30%;
+    position: absolute;
+    top: -42%;
+    left: -46%;
+    margin: auto;
+    animation: scl 3s linear infinite;
+}
+
+.dots-1-four img {
+    width: 30%;
+    position: absolute;
+    top: -8%;
+    left: -74%;
+    margin: auto;
+    animation: scl 3s linear infinite;
+}
+
+.dots-1-five img {
+    width: 32%;
+    position: absolute;
+    top: 100%;
+    left: -74%;
+    margin: auto;
+    animation: scl 3s linear infinite;
+}
+
+.dots-2 img {
+    width: 45%;
+    position: absolute;
+    top: -33%;
+    left: 129%;
+    margin: auto;
+    animation: scl 3s linear infinite;
+}
+
+.dots-2-one img {
+    width: 42%;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    margin: auto;
+    animation: scl 3s linear infinite;
+}
+
+.dots-2-two img {
+    width: 50%;
+    position: absolute;
+    top: 46%;
+    left: -80%;
+    margin: auto;
+    animation: scl 3s linear infinite;
+}
+
+@keyframes scl {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+
+
+.timer {
+    font-family: TT Norms,Helvetica,Arial;
+    border: 1px solid #00ff2b;
+    border-radius: 50px;
+    width: 25%;
+    font-size: 1.4rem;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 0px 0px 24px 16px rgba(42,178,212,1);
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*Timer Style Start*/
+#countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary {
+    border: 1px solid #00000000;
+    background: #0089ff;
+    animation: blink 1s linear infinite;
+    width: 138px;
+}
+
+@keyframes blink {
+
+    0% {
+        background: #0089ff;
+    }
+
+    50% {
+        background: #00b1f6;
+    }
+
+    100% {
+        background: #0089ff;
+    }
+}
+
+
+
+.btn-primary:hover {
+    background: #0370cf;
+    border: 1px solid #00ff2b;
+}
+
+#attendance_button {
+    z-index: 9999;
+    border-radius: 50px;
+    max-width: 100%;
+    font-size: 36px;
+    border-radius: 50%;
+    max-height: 130px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#start {
+    background: transparent !important;
+    margin-top: 26px;
+    font-size:26px;
+}
+
+#one-2 {
+    display: none;
+}
+
+#two-2 {
+    display: none;
+}
+
+@media (min-width:450px) and (max-width: 991px) {
+
+    .timer {
+        width: 25%;
+        font-size: 14px;
+    }
+
+
+    .secure-1 img {
+        width: 40%;
+        position: absolute;
+        top: -32%;
+        left: -4%;
+        margin: auto;
+        animation: upD1 3s linear infinite;
+    }
+
+    @keyframes NEW-scl {
+        0% {
+            transform: scale(1.0);
+            -webkit-transform: scale(1.0);
+        }
+
+        50% {
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+        }
+
+        100% {
+            transform: scale(1.0);
+            -webkit-transform: scale(1.0);
+        }
+    }
+
+
+    .grid {
+        width: 350px;
+    }
+
+    .content-wrapper {
+        height: 800px;
+        background-position: center;
+        background-image: url("../img/web/phone-code-img/mobicryp%20minting%20tab%20view.png" );
+        background-size: cover;
+        z-index: -10 !important;
+    }
+
+    #one-1 {
+        display: none;
+    }
+
+    #one-2 {
+        display: block;
+    }
+
+    #two-1 {
+        display: none;
+    }
+
+    #two-2 {
+        display: block;
+    }
+
+    .sd-1 img {
+        display: none;
+    }
+
+    .sd-3 img {
+        width: 72%;
+        position: absolute;
+        top: -100.6%;
+        left: 0.0%;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .sd-2 img {
+        width: 74%;
+        position: absolute;
+        top: 100.9%;
+        bottom: 0;
+        right: 13%;
+        margin: auto;
+    }
+
+    #attendance_button .btn {
+        font-size: 15px;
+    }
+
+
+    #attendance_button {
+        z-index: 999999;
+        border-radius: 50px;
+        width: 65px;
+        border-radius: 50%;
+        height: 65px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .rectangle-icon-4 img {
+        width: 20%;
+        position: absolute;
+        top: 10% !important;
+        left: 95% !important;
+        margin: auto;
+        animation: scl 1s linear infinite;
+    }
+
+    .secure-2 img {
+        width: 40%;
+        position: absolute;
+        top: 90%;
+        left: 85%;
+        margin: auto;
+    }
+
+    .dots-2 img {
+        width: 40%;
+        position: absolute;
+        top: -38%;
+        left: 43%;
+        transform: rotate(90deg) !important;
+        margin: auto;
+    }
+
+    .dots-1-three img {
+        width: 40%;
+        position: absolute;
+        top: -30%;
+        left: 12%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+    }
+
+    .dots-1 img {
+        width: 40%;
+        position: absolute;
+        top: -25%;
+        left: 75%;
+        transform: rotate(90deg) !important;
+        margin: auto;
+    }
+
+    .dots-1-four img {
+        width: 40%;
+        position: absolute;
+        top: 0%;
+        left: -28%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+    }
+
+    .dots-1-one img {
+        width: 45%;
+        position: absolute;
+        top: -16%;
+        left: 90%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+    }
+
+    .dots-1-two img {
+        width: 40%;
+        position: absolute;
+        top: 68%;
+        left: 112%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+    }
+
+    .dots-2-one img {
+        width: 42%;
+        position: absolute;
+        top: 115%;
+        left: 55%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+    }
+
+    .dots-2-two img {
+        width: 50%;
+        position: absolute;
+        top: 48%;
+        left: -56%;
+        transform: rotate(90deg) !important;
+        margin: auto;
+    }
+
+    .dots-1-five img {
+        width: 40%;
+        position: absolute;
+        top: 88%;
+        left: -32%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+    }
+
+    .secure-3 img {
+        width: 32%;
+        position: absolute;
+        top: 108% !important;
+        left: -38% !important;
+        margin: auto;
+    }
+
+    .rectangle-icon-2 img {
+        width: 20%;
+        position: absolute;
+        top: 44% !important;
+        left: 112% !important;
+        margin: auto;
+        animation: NEW-scl 3s linear infinite;
+    }
+
+    .rectangle-icon-3 img {
+        width: 32%;
+        position: absolute;
+        top: 126%;
+        transform: rotate(90deg) !important;
+        left: 34px;
+        margin: auto;
+        animation: NEW-scl 3s linear infinite;
+    }
+
+    .secure-4 img {
+        width: 40%;
+        position: absolute;
+        top: 92%;
+        left: 99%;
+        margin: auto;
+        animation: scl 2s linear infinite;
+    }
+
+    .rectangle-icon-1 img {
+        width: 38%;
+        position: absolute;
+        top: 16%;
+        left: -52%;
+        margin: auto;
+        animation: scl 3s linear infinite;
+    }
+
+    #start {
+        margin-top: 2px;
+        font-size: 15px;
+        background: transparent !important;
+    }
+}
+
+
+@media (max-width:450px) {
+   
+    #start {
+        background: transparent !important;
+        margin-top: 3px;
+        font-size: 16px;
+    }
+
+    .timer {
+        width: 25%;
+        font-size: 10px;
+    }
+
+    .secure-1 img {
+        width: 40%;
+        position: absolute;
+        top: -32%;
+        left: -4%;
+        margin: auto;
+        animation: upD1 3s linear infinite;
+    }
+
+    .grid {
+        width: 280px;
+    }
+
+
+    .content-wrapper {
+        height: 900px;
+        background-position: center;
+        background-image: url("../img/web/phone-code-img/mobicryp%20minting%20tab%20view.png" );
+        background-size: cover;
+        z-index: -10 !important;
+    }
+
+    #one-1 {
+        display: none;
+    }
+
+    #one-2 {
+        display: block;
+    }
+
+    #two-1 {
+        display: none;
+    }
+
+    #two-2 {
+        display: block;
+    }
+
+    .sd-1 img {
+        display: none;
+    }
+
+    .sd-3 img {
+        width: 72%;
+        position: absolute;
+        top: -79.6%;
+        left: 0.0%;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .sd-2 img {
+        width: 74%;
+        position: absolute;
+        top: 80.9%;
+        bottom: 0;
+        right: 13%;
+        margin: auto;
+    }
+
+
+    #attendance_button {
+        z-index: 95;
+        border-radius: 50px;
+        width: 65px;
+        border-radius: 50%;
+        height: 65px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .rectangle-icon-4 img {
+        width: 30%;
+        position: absolute;
+        top: 17% !important;
+        left: 94% !important;
+        margin: auto;
+        animation: scl 1s linear infinite;
+    }
+
+    .secure-2 img {
+        width: 40%;
+        position: absolute;
+        top: 90%;
+        left: 64% !important;
+        margin: auto;
+    }
+
+    .dots-2 img {
+        width: 40%;
+        position: absolute;
+        top: -25%;
+        left: 43%;
+        transform: rotate(90deg) !important;
+        margin: auto;
+        animation: scl 3s linear infinite;
+    }
+
+    .dots-1-three img {
+        width: 40%;
+        position: absolute;
+        top: -15%;
+        left: 15%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+        animation: scl 3s linear infinite;
+    }
+
+    .dots-1 img {
+        width: 40%;
+        position: absolute;
+        top: -15%;
+        left: 65%;
+        transform: rotate(90deg) !important;
+        margin: auto;
+        animation: scl 3s linear infinite;
+    }
+
+    .dots-1-four img {
+        width: 40%;
+        position: absolute;
+        top: 15%;
+        left: -21%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+        animation: scl 3s linear infinite;
+    }
+
+    .dots-1-two img {
+        width: 40%;
+        position: absolute;
+        top: 68%;
+        left: 95%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+        animation: scl 3s linear infinite;
+    }
+
+    .dots-1-one img {
+        width: 45%;
+        position: absolute;
+        top: -31%;
+        left: 82%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+        animation: scl 3s linear infinite;
+    }
+
+    .dots-1-two img {
+        width: 40%;
+        position: absolute;
+        top: 74%;
+        left: 80%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+        animation: scl 1s linear infinite;
+    }
+
+    .dots-2-one img {
+        width: 42%;
+        position: absolute;
+        top: 113%;
+        left: 37%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+        animation: scl 1s linear infinite;
+    }
+
+    .dots-2-two img {
+        width: 50%;
+        position: absolute;
+        top: 48%;
+        left: -56%;
+        transform: rotate(90deg) !important;
+        margin: auto;
+        animation: scl 1s linear infinite;
+    }
+
+    .dots-1-five img {
+        width: 40%;
+        position: absolute;
+        top: 88%;
+        left: -32%;
+        margin: auto;
+        transform: rotate(90deg) !important;
+        animation: scl 1s linear infinite;
+    }
+
+    .secure-3 img {
+        width: 32%;
+        position: absolute;
+        top: 76% !important;
+        left: -9% !important;
+        margin: auto;
+        animation: scl 3s linear infinite;
+    }
+
+    .rectangle-icon-2 img {
+        width: 20%;
+        position: absolute;
+        top: 44% !important;
+        left: 112% !important;
+        margin: auto;
+    }
+
+    #controls {
+        margin: 0 auto;
+        width: 600px;
+    }
+
+        #controls button {
+            font-size: 24px;
+        }
+
+    .secure-4 img {
+        width: 40%;
+        position: absolute;
+        top: 100%;
+        left: 69%;
+        margin: auto;
+        animation: scl 2s linear infinite;
+    }
+
+    .rectangle-icon-1 img {
+        width: 38%;
+        position: absolute;
+        top: -40%;
+        left: 12%;
+        margin: auto;
+        animation: scl 3s linear infinite;
+    }
+}
+#start:hover {
+    background: transparent !important;
+    border: 0px solid !important;
+    background: none !important;
+}

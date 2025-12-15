@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="~/dashboard_files/favicon.png">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="~/assets/dashboard_files/backend-plugin.min.css">
+    <link rel="stylesheet" href="~/assets/dashboard_files/backend.css">
+    <link rel="stylesheet" href="~/assets/dashboard_files/all.min.css">
+    <link rel="stylesheet" href="~/assets/dashboard_files/line-awesome.min.css">
+    <link rel="stylesheet" href="~/assets/dashboard_files/remixicon.css">
+    <link rel="stylesheet" href="~/assets/dashboard_files/dripicons.css">
+    <link rel="stylesheet" href="~/assets/dashboard_files/main.css">
+    <link rel="stylesheet" href="~/assets/dashboard_files/mapbox-gl.css">
+    <link rel="stylesheet" href="~/assets/dashboard_files/tooltip.css">
+    <link rel="stylesheet" href="~/assets/dashboard_files/util.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="dashboard2-header-style">
+            <div class="iq-top-navbar">
+                <div class="container">
+                    <div class="iq-navbar-custom d-flex justify-content-between">
+                        <div class="iq-navbar-logo">
+                            <img src="~/panel-images/demo_logo.png" height="40" />
+                            <span class="text-white ms-2">MC1736043</span>
+                        </div>
+                        <span class="text-white">RS123456</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-analytic-horizontal rtl-bg-analytic-horizontal">
+                <div class="container">
+                    <div class="white-bg-menu">
+                        <div class="iq-menu-horizontal">
+                            <nav class="iq-sidebar-menu">
+                                <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
+                                    <a href="#" class="header-logo">
+                                        <img src="dashboard_files/logo.png" class="img-fluid rounded-normal" alt="logo">
+                                    </a>
+                                    <div class="iq-menu-bt-sidebar">
+                                        <i class="fa fa-times wrapper-menu"></i>
+                                    </div>
+                                </div>
+                                <ul id="iq-sidebar-toggle" class="iq-menu d-flex mn-center">
+
+                                    <li class="active">
+                                        <a href="#">
+                                            <i class="fa fa-home"></i><span>Dashboard</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="">
+                                        <a href="#profile" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                            <i class="fa fa-user"></i>
+                                            <span>Profile</span>
+                                            <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
+                                            <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
+                                        </a>
+                                        <ul id="profile" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="#Hub" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                            <i class="fa fa-handshake-o"></i><span>Hub</span>
+                                            <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
+                                            <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
+                                        </a>
+                                        <ul id="Hub" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="#myteam" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                            <i class="fa fa-users"></i><span>My Team</span>
+                                            <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
+                                            <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
+                                        </a>
+                                        <ul id="myteam" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="">
+                                        <a href="#statement" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                            <i class="fa fa-file-text-o"></i><span>Statement</span>
+                                            <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
+                                            <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
+                                        </a>
+                                        <ul id="statement" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="">
+                                        <a href="#funds" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                            <i class="fa fa-inr"></i><span>Funds</span>
+                                            <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
+                                            <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
+                                        </a>
+                                        <ul id="funds" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="">
+                                        <a href="#support" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                            <i class="fa fa-headphones"></i><span>Support</span>
+                                            <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
+                                            <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
+                                        </a>
+                                        <ul id="support" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#logout"><i class="fa fa-lock"></i><span>Logout</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ===== PAGE CONTENT ===== -->
+        @RenderBody()
+    </div>
+
+    <!-- ===== JS ===== -->
+    <script src="~/assets/dashboard_files/backend-bundle.min.js"></script>
+    <script src="~/assets/dashboard_files/masonry.pkgd.min.js"></script>
+    <script src="~/assets/dashboard_files/imagesloaded.pkgd.min.js"></script>
+    <script src="~/assets/dashboard_files/mapbox-gl.js"></script>
+    <script src="~/assets/dashboard_files/mapbox.js"></script>
+    <script src="~/assets/dashboard_files/main.js"></script>
+    <script src="~/assets/dashboard_files/app.js"></script>
+</body>
+</html>

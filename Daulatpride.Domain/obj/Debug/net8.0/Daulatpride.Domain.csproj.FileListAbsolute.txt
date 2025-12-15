@@ -1,0 +1,12 @@
+D:\Mvc\Daulatpride.Domain\bin\Debug\net8.0\Daulatpride.Domain.deps.json
+D:\Mvc\Daulatpride.Domain\bin\Debug\net8.0\Daulatpride.Domain.dll
+D:\Mvc\Daulatpride.Domain\bin\Debug\net8.0\Daulatpride.Domain.pdb
+D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.csproj.AssemblyReference.cache
+D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.AssemblyInfoInputs.cache
+D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.AssemblyInfo.cs
+D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.csproj.CoreCompileInputs.cache
+D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.dll
+D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\refint\Daulatpride.Domain.dll
+D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\Daulatpride.Domain.pdb
+D:\Mvc\Daulatpride.Domain\obj\Debug\net8.0\ref\Daulatpride.Domain.dll

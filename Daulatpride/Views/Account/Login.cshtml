@@ -1,0 +1,201 @@
+﻿@model Daulatpride.Domain.Entities.Login
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Welcome to Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/assets/Login-assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/assets/Login-assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="~/assets/Login-assets/font/flaticon.css" />
+    <link rel="stylesheet" href="~/assets/Login-assets/style.css" />
+    <link rel="stylesheet" href="~/assets/dashboard_files/cryptrad_stylesheet.css" />
+</head>
+
+<body>
+
+    <section class="fxt-template-animation fxt-template-layout9 loaded">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+
+                    <div class="fxt-content text-center card bg-light p-5 rounded-2">
+                        <div class="row">
+
+                            <!-- LEFT SIDE -->
+                            <div class="col-lg-6">
+                                <div class="fxt-header mb-4">
+                                    <img src="~/assets/panel-images/demo_logo.png" width="200" />
+                                </div>
+
+                                <hr />
+                                <h2 class="text-primary">Login to Your Personal Account</h2>
+                                <p class="text-dark">
+                                    For access to all the functions of your personal account,<br />
+                                    use automatic login
+                                </p>
+
+                                <input type="button"
+                                       value="WALLET LOGIN"
+                                       class="fxt-btn-fill w-100 mt-3" />
+
+                                <div class="mt-4">
+                                    <span class="text-danger fw-bold">
+                                        Join if you are not with us :
+                                    </span>
+                                    <br />
+                                    <a href="Registration"
+                                       class="text-primary text-decoration-underline">
+                                        Registration in Company Name
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 border-start text-start ps-4">
+
+                                <h2 class="text-primary mb-4">
+                                    Login Your Account
+                                </h2>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-dark">
+                                        User Name / Email ID :
+                                    </label>
+                                    <input id="username"
+                                           class="form-control"
+                                           placeholder="User Name / Email ID" />
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-dark">
+                                        Password :
+                                    </label>
+                                    <input id="password"
+                                           type="password"
+                                           class="form-control"
+                                           placeholder="Password" />
+                                </div>
+                                <button id="btnLogin" type="button" class="btn btn-primary">
+                                    Submit
+                                </button>
+
+                             @*    <button id="btnLogin"
+                                        type="button"
+                                        class="btn btn-primary">
+                                    Submit
+                                </button> *@
+
+                              @*   <button type="reset"
+                                        class="btn btn-success ms-2">
+                                    Reset
+                                </button> *@
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="~/assets/Login-assets/js/jquery-3.5.0.min.js"></script>
+    <script src="~/assets/Login-assets/js/bootstrap.min.js"></script>
+    <script>
+        // ✅ ENTER KEY PRESS → LOGIN
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                document.getElementById("btnLogin").click();
+            }
+        });
+
+        $(document).ready(function () {
+
+            function showLoading() {
+                $("#loadingScreen").show();
+            }
+
+            function hideLoading() {
+                $("#loadingScreen").hide();
+            }
+
+            $("#btnLogin").on("click", function () {
+
+                var username = $("#username").val().trim();
+                var password = $("#password").val().trim();
+
+                // ✅ Basic validation
+                if (username === "" || password === "") {
+                    alert("Please enter User Name and Password");
+                    return;
+                }
+
+                showLoading();
+
+                $.ajax({
+                    url: "/Account/Login",
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    data: JSON.stringify({
+                        Username: username,
+                        Password: password
+                    }),
+                    success: function (res) {
+
+                        if (res.redirectUrl) {
+                            window.location.href = res.redirectUrl;
+                        }
+                        else if (res.errorMessage) {
+                            alert(res.errorMessage);
+                        }
+                        else {
+                            alert("Unexpected response from server");
+                        }
+                    },
+                    error: function (xhr) {
+                        alert("Server error : " + xhr.status);
+                    },
+                    complete: function () {
+                        hideLoading();
+                    }
+                });
+            });
+        });
+    </script>
+
+
+    @* <script>
+        $("#btnLogin").click(function () {
+
+            $.ajax({
+                url: "/Account/Login",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    Username: $("#username").val(),
+                    Password: $("#password").val()
+                }),
+                success: function (res) {
+                    if (res.redirectUrl) {
+                        window.location.href = res.redirectUrl;
+                    } else {
+                        alert(res.errorMessage);
+                    }
+                }
+            });
+
+        });
+    </script> *@
+
+</body>
+</html>
