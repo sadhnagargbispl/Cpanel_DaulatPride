@@ -87,14 +87,14 @@
                                 </button>
 
                                 @*    <button id="btnLogin"
-                                        type="button"
-                                        class="btn btn-primary">
-                                    Submit
+                                type="button"
+                                class="btn btn-primary">
+                                Submit
                                 </button> *@
 
                                 @*   <button type="reset"
-                                        class="btn btn-success ms-2">
-                                    Reset
+                                class="btn btn-success ms-2">
+                                Reset
                                 </button> *@
 
                             </div>
@@ -178,26 +178,26 @@
 
 
     @* <script>
-        $("#btnLogin").click(function () {
+    $("#btnLogin").click(function () {
 
-            $.ajax({
-                url: "/Account/Login",
-                type: "POST",
-                contentType: "application/json",
-                data: JSON.stringify({
-                    Username: $("#username").val(),
-                    Password: $("#password").val()
-                }),
-                success: function (res) {
-                    if (res.redirectUrl) {
-                        window.location.href = res.redirectUrl;
-                    } else {
-                        alert(res.errorMessage);
-                    }
-                }
-            });
+    $.ajax({
+    url: "/Account/Login",
+    type: "POST",
+    contentType: "application/json",
+    data: JSON.stringify({
+    Username: $("#username").val(),
+    Password: $("#password").val()
+    }),
+    success: function (res) {
+    if (res.redirectUrl) {
+    window.location.href = res.redirectUrl;
+    } else {
+    alert(res.errorMessage);
+    }
+    }
+    });
 
-        });
+    });
     </script> *@
 
 </body>
