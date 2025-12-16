@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8632C13-D953-4505-A77C-A755EC4AD985}|..\\Daulatpride.Domain\\Daulatpride.Domain.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CE7415-2A22-4639-A39C-B4F445DF3FF5}|..\\Daulatpride.Infrastructure\\Daulatpride.Infrastructure.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride.infrastructure\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8632C13-D953-4505-A77C-A755EC4AD985}|..\\Daulatpride.Domain\\Daulatpride.Domain.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride.domain\\interface\\i_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\AppData\\Local\\SourceServer\\a8f874de0f8432fc8fcf2729f0eacfa5012d79ab15a6bdd8a50950e63ac2bd00\\Daulatpride\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride\\extension\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:extension\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride\\wwwroot\\backup-theme\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:wwwroot\\backup-theme\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride\\wwwroot\\backup-theme\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|e:\\sadhna garg\\githubc#\\cpanel_daulatpride\\daulatpride\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86634B87-745F-4FF6-863D-F010C75D3FA5}|Daulatpride.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mvc\\Daulatpride.Domain\\Entities\\UserRegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -59,7 +75,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -84,32 +100,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "login.html",
-              "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\login.html",
-              "RelativeDocumentMoniker": "wwwroot\\backup-theme\\login.html",
-              "ToolTip": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\login.html",
-              "RelativeToolTip": "wwwroot\\backup-theme\\login.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALAAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-12-15T11:45:21.492Z",
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride.Infrastructure\\Repository\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "..\\Daulatpride.Infrastructure\\Repository\\LoginRepository.cs",
+              "ToolTip": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride.Infrastructure\\Repository\\LoginRepository.cs",
+              "RelativeToolTip": "..\\Daulatpride.Infrastructure\\Repository\\LoginRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T05:38:04.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\AppData\\Local\\SourceServer\\a8f874de0f8432fc8fcf2729f0eacfa5012d79ab15a6bdd8a50950e63ac2bd00\\Daulatpride\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\AppData\\Local\\SourceServer\\a8f874de0f8432fc8fcf2729f0eacfa5012d79ab15a6bdd8a50950e63ac2bd00\\Daulatpride\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T05:34:17.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "I_Login.cs",
+              "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride.Domain\\Interface\\I_Login.cs",
+              "RelativeDocumentMoniker": "..\\Daulatpride.Domain\\Interface\\I_Login.cs",
+              "ToolTip": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride.Domain\\Interface\\I_Login.cs",
+              "RelativeToolTip": "..\\Daulatpride.Domain\\Interface\\I_Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T05:20:50.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\Daulatpride.Domain\\Entities\\User.cs",
+              "ToolTip": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "..\\Daulatpride.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA7wCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T05:13:40.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCYAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T05:13:17.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Login.cshtml",
               "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
               "ToolTip": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAG4AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAH0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-15T11:45:13.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "dashboard.html",
               "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard.html",
               "RelativeDocumentMoniker": "wwwroot\\backup-theme\\dashboard.html",
@@ -117,25 +183,23 @@
               "RelativeToolTip": "wwwroot\\backup-theme\\dashboard.html",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-12-15T11:40:43.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T11:40:43.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAewBMBAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-15T06:58:40.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T06:58:40.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Registration.cshtml",
               "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Views\\Registration\\Registration.cshtml",
               "RelativeDocumentMoniker": "Views\\Registration\\Registration.cshtml",
@@ -147,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "RegistrationController.cs",
               "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Controllers\\RegistrationController.cs",
               "RelativeDocumentMoniker": "Controllers\\RegistrationController.cs",
@@ -160,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "UserRegistration.cs",
               "DocumentMoniker": "D:\\MVC\\Daulatpride.Domain\\Entities\\UserRegistration.cs",
               "ToolTip": "D:\\MVC\\Daulatpride.Domain\\Entities\\UserRegistration.cs",
@@ -170,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -182,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "DapperDbContext.cs",
               "DocumentMoniker": "D:\\MVC\\Daulatpride.Infrastructure\\DapperContext\\DapperDbContext.cs",
               "ToolTip": "D:\\MVC\\Daulatpride.Infrastructure\\DapperContext\\DapperDbContext.cs",
@@ -192,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "LoginRepository.cs",
               "DocumentMoniker": "D:\\MVC\\Daulatpride.Infrastructure\\Repository\\LoginRepository.cs",
               "ToolTip": "D:\\MVC\\Daulatpride.Infrastructure\\Repository\\LoginRepository.cs",
@@ -202,7 +266,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:58:50.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Extension\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "Extension\\SessionExtensions.cs",
+              "ToolTip": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Extension\\SessionExtensions.cs",
+              "RelativeToolTip": "Extension\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T05:29:40.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -214,25 +304,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T06:58:50.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAAAD4BAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-15T06:58:34.169Z",
               "EditorCaption": ""

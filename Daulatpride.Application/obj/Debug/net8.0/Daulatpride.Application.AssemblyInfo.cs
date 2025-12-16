@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Daulatpride.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3652be71ee335bcf4ef1be7677a7f276afe8a993")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98c8ca24763d85cf8af20925fefc229611a9503e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Daulatpride.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Daulatpride.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

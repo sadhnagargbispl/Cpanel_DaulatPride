@@ -11,7 +11,7 @@ namespace Daulatpride.Domain.Interface
     {
 
         Task<Login> GetLogin(Login req);
-        Task<User> ValidateUser(Login model);
+        Task<MemberInfo> ValidateUser(Login model);
 
     }
 }

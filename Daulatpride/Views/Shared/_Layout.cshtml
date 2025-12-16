@@ -68,7 +68,8 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto navbar-list align-items-center">
                                     <li class="nav-item iq-full-screen">
-                                        <span id="lblwelcomename" class="fname">RS123456</span>
+
+                                        <span id="lblwelcomename" class="fname">@Context.Session.GetString("IDNo")</span>
                                     </li>
                                     <li class="caption-content">
                                         <a href="#" class="iq-user-toggle">
@@ -88,40 +89,10 @@
                                                         <div class="card-body">
                                                             <div class="profile-header">
                                                                 <div class="row">
-                                                                    <div class="col-lg-6 col-md-6  col-6 pr-0">
-                                                                        <div class="profile-details text-center">
-                                                                            <a href="#" class="iq-sub-card bg-primary-light rounded-small p-2">
-                                                                                <div class="rounded iq-card-icon-small">
-                                                                                    <i class="fa fa-home"></i>
-                                                                                </div>
-                                                                                <h6 class="mb-0 ">Home</h6>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6  col-md-6 col-6">
-                                                                        <div class="profile-details text-center">
-                                                                            <a href="#" class="iq-sub-card bg-danger-light rounded-small p-2">
-                                                                                <div class="rounded iq-card-icon-small">
-                                                                                    <i class="fa fa-usd"></i>
-
-                                                                                </div>
-                                                                                <h6 class="mb-0 ">Cryptrad</h6>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6 col-md-6  col-6 pr-0">
-                                                                        <div class="profile-details text-center">
-                                                                            <a href="#" class="iq-sub-card bg-success-light rounded-small p-2">
-                                                                                <div class="rounded iq-card-icon-small">
-                                                                                    <i class="fa fa-newspaper-o"></i>
-                                                                                </div>
-                                                                                <h6 class="mb-0 ">Orders</h6>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
+                                                                   
                                                                     <div class="col-lg-6 col-md-6  col-6">
                                                                         <div class="profile-details text-center">
-                                                                            <a href="#" class="iq-sub-card bg-info-light rounded-small p-2">
+                                                                            <a href="@Url.Action("Logout", "Account")" class="iq-sub-card bg-info-light rounded-small p-2">
                                                                                 <div class="rounded iq-card-icon-small">
                                                                                     <i class="fa fa-sign-out"></i>
                                                                                 </div>
@@ -158,98 +129,111 @@
                                         <i class="fa fa-times wrapper-menu"></i>
                                     </div>
                                 </div>
-                                <ul id="iq-sidebar-toggle" class="iq-menu d-flex mn-center">
+                                @{
+                                    var status = Context.Session.GetString("Status");
+                                }
+                                @if (status == "OK")
+                                {
+                                    <ul id="iq-sidebar-toggle" class="iq-menu d-flex mn-center">
 
-                                    <li class="active">
-                                        <a href="dashboard.html">
-                                            <i class="fa fa-home"></i><span>Dashboard</span>
-                                        </a>
-                                    </li>
+                                        <li class="active">
+                                            <a href="Index">
+                                                <i class="fa fa-home"></i><span>Dashboard</span>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#profile" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                                <i class="fa fa-user"></i>
+                                                <span>My Team</span>
+                                                <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
+                                                <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
+                                            </a>
+                                            <ul id="profile" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>My Direct Report</a></li>
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Level Wise Report</a></li>
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>My Direct Tree </a></li>
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Geneology</a></li>
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Downline Detail</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#Hub" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                                <i class="fa fa-handshake-o"></i><span>Profile</span>
+                                                <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
+                                                <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
+                                            </a>
+                                            <ul id="Hub" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Profile</a></li>
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Change Password</a></li>
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Change Transaction Password</a></li>
+                                            </ul>
+                                        </li>
 
-                                    <li class="">
-                                        <a href="#profile" class="collapsed" data-toggle="collapse" aria-expanded="false">
-                                            <i class="fa fa-user"></i>
-                                            <span>Profile</span>
-                                            <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
-                                            <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
-                                        </a>
-                                        <ul id="profile" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                        </ul>
-                                    </li>
-                                    <li class=" ">
-                                        <a href="#Hub" class="collapsed" data-toggle="collapse" aria-expanded="false">
-                                            <i class="fa fa-handshake-o"></i><span>Hub</span>
-                                            <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
-                                            <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
-                                        </a>
-                                        <ul id="Hub" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class=" ">
-                                        <a href="#myteam" class="collapsed" data-toggle="collapse" aria-expanded="false">
-                                            <i class="fa fa-users"></i><span>My Team</span>
-                                            <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
-                                            <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
-                                        </a>
-                                        <ul id="myteam" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                        <li class="">
+                                            <a href="#statement" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                                <i class="fa fa-file-text-o"></i><span>Documents</span>
+                                                <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
+                                                <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
+                                            </a>
+                                            <ul id="statement" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>KYC</a></li>
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Welcome Letter</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a href="#funds" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                                <i class="fa fa-inr"></i><span>Income</span>
+                                                <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
+                                                <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
+                                            </a>
+                                            <ul id="funds" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Monthly Payout Detail</a></li>
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Daily Income Detail</a></li>
 
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="">
-                                        <a href="#statement" class="collapsed" data-toggle="collapse" aria-expanded="false">
-                                            <i class="fa fa-file-text-o"></i><span>Statement</span>
-                                            <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
-                                            <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
-                                        </a>
-                                        <ul id="statement" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="">
-                                        <a href="#funds" class="collapsed" data-toggle="collapse" aria-expanded="false">
-                                            <i class="fa fa-inr"></i><span>Funds</span>
-                                            <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
-                                            <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
-                                        </a>
-                                        <ul id="funds" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                        </ul>
-                                    </li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a href="#Wallet" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                                <i class="fa fa-inr"></i><span>Wallet</span>
+                                                <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
+                                                <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
+                                            </a>
+                                            <ul id="Wallet" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Wallet Report</a></li>
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Wallet Transfer</a></li>
 
-                                    <li class="">
-                                        <a href="#support" class="collapsed" data-toggle="collapse" aria-expanded="false">
-                                            <i class="fa fa-headphones"></i><span>Support</span>
-                                            <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
-                                            <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
-                                        </a>
-                                        <ul id="support" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                            <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Sub-Menu </a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#logout"><i class="fa fa-lock"></i><span>Logout</span></a></li>
-                                </ul>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a href="#support" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                                <i class="fa fa-headphones"></i><span>Complaint</span>
+                                                <i class="fa fa-angle-right iq-arrow-right arrow-active"></i>
+                                                <i class="fa fa-angle-right iq-arrow-right arrow-hover"></i>
+                                            </a>
+                                            <ul id="support" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Raise Ticket</a></li>
+                                                <li class=""><a href="#"><i class="fa fa-dot-circle-o"></i>Ticket Status</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="@Url.Action("Logout", "Account")"><i class="fa fa-lock"></i><span>Logout</span></a></li>
+                                    </ul>
+
+                                }
+
+                                else
+                                {
+                                    <ul id="iq-sidebar-toggle" class="iq-menu d-flex mn-center">
+
+                                        <li class="active">
+                                            <a href="@Url.Action("Login", "Account")">
+                                                <i class="fa fa-home"></i><span>Sign In</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("Logout", "Account")"><i class="fa fa-lock"></i><span>Sign Out</span></a>
+                                        </li>
+                                    </ul>
+                                }
                             </nav>
                         </div>
                     </div>
