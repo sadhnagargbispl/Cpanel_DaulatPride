@@ -33,3 +33,21 @@ E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net
 E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\refint\Daulatpride.Application.dll
 E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.pdb
 E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\ref\Daulatpride.Application.dll
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Application.deps.json
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Application.dll
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Application.pdb
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Domain.dll
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Infrastructure.dll
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Domain.pdb
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\bin\Debug\net8.0\Daulatpride.Infrastructure.pdb
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.csproj.AssemblyReference.cache
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.AssemblyInfoInputs.cache
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.AssemblyInfo.cs
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.csproj.CoreCompileInputs.cache
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.sourcelink.json
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpr.AD163EF1.Up2Date
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.dll
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\refint\Daulatpride.Application.dll
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\Daulatpride.Application.pdb
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Application\obj\Debug\net8.0\ref\Daulatpride.Application.dll

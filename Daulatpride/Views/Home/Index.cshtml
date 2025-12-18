@@ -1,4 +1,5 @@
-﻿@model Daulatpride.Domain.Entities.Widgets
+﻿@model Daulatpride.Domain.Entities.Dashboard
+
 
 @{
     ViewBag.Title = "DashBoard";
@@ -44,9 +45,11 @@
                                 @*   <img src="~/images/coin.png" class="img-fluid img-responsive"> *@
                             </div>
                             <div class="mt-4">
-                                <h4 class="">My Income</h4>
-                                @*  <p class="mb-1" style="color:#000;">USDT</p> *@
-                                <span id="ContentPlaceHolder1_lblAvailableFund" style="color:#000;">0.00</span>
+                                <h4 class="">Member Direct</h4>
+                                <strong class="h2">
+                                    @(Model.Widgets?.FirstOrDefault(x => x.Name == "Member Direct")?.Direct ?? 0)
+                                </strong>
+
                             </div>
                         </div>
                     </div>
@@ -62,9 +65,9 @@
                                 <i class="fa fa-user"></i>
                             </div>
                             <div class="mt-4">
-                                <h4 class="">My Directs</h4>
-                                @*     <p class="mb-1">USDT</p> *@
-                                <span id="ContentPlaceHolder1_lblWallet" class="text-primary">0</span>
+                                <h4 class="">MTeam Direct</h4>
+                                @(Model.Widgets?.FirstOrDefault(x => x.Name == "Team Direct")?.Direct ?? 0)
+                              
                             </div>
                         </div>
                     </div>
@@ -80,9 +83,9 @@
                                 <i class="fa fa-handshake-o"></i>
                             </div>
                             <div class="mt-4">
-                                <h4 class="">My Team</h4>
+                                <h4 class="">Total Member</h4>
                                 @*   <p class="mb-1">USDT</p> *@
-                                <span id="ContentPlaceHolder1_SpanTopupwalletUSD" class="text-danger">0</span>
+                                @(Model.Widgets?.FirstOrDefault(x => x.Name == "Total Member")?.Direct ?? 0)
                             </div>
                         </div>
                     </div>
@@ -98,9 +101,9 @@
                                 <i class="fa fa-home"></i>
                             </div>
                             <div class="mt-4">
-                                <h4 class="">Total Business</h4>
+                                <h4 class="">Total Income</h4>
                                 @*  <p class="mb-1">USDT</p> *@
-                                <span id="ContentPlaceHolder1_SpanTrdowallet" class="text-danger">0.00</span>
+                                @(Model.Widgets?.FirstOrDefault(x => x.Name == "Total Income")?.Direct ?? 0)
                             </div>
                         </div>
                     </div>
@@ -157,7 +160,7 @@
                             </span>
                             <div class="media-body text-white text-right">
                                 <p class="mb-1">Earning Wallet</p>
-                                <h3 class="text-white"><span id="ContentPlaceHolder1_SpanbinaryIncome">0.00</span></h3>
+                                @(Model.WalletSummarys?.FirstOrDefault(x => x.Name == "Earning Wallet")?.Amount ?? 0)
                             </div>
                         </div>
                     </div>
@@ -172,8 +175,8 @@
                                 <i class="fa fa-google-wallet"></i>
                             </span>
                             <div class="media-body text-white text-right">
-                                <p class="mb-1">Fund Wallet</p>
-                                <h3 class="text-white"><span id="ContentPlaceHolder1_Spanstakingincome">0.000</span></h3>
+                                <p class="mb-1">Fund Wallet	</p>
+                                @(Model.WalletSummarys?.FirstOrDefault(x => x.Name == "Fund Wallet")?.Amount ?? 0)
                             </div>
                         </div>
                     </div>
@@ -193,6 +196,34 @@
             <div class="container">
 
                 <div class="row">
+                    @* <div class="col-sm-12">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between">
+
+                                <span class="referlink">
+                                    <h4>Referral Link :</h4>
+                                    <hr>
+
+                                    <!-- 🔥 SAME ID LIKE WEBFORMS -->
+                                    <a id="ContentPlaceHolder1_lblLink"
+                                       href="@Model.ReferralLink"
+                                       target="_blank"
+                                       style="color:#1e7ddd;">
+                                        @Model.ReferralLink
+                                    </a>
+
+                                    <div class="text-muted accovercntr">
+                                        <button type="button"
+                                                class="btn btn-primary btn-sm mt-3"
+                                                onclick="return copyText();">
+                                            <i class="fa fa-files-o"></i> Copy Referral Link
+                                        </button>
+                                    </div>
+                                </span>
+
+                            </li>
+                        </ul>
+                    </div> *@
 
                     <div class="col-sm-12">
                         <ul class="list-group list-group-flush">
@@ -247,14 +278,30 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-
+                                            @if (Model.DirectMembers != null && Model.DirectMembers.Any())
+                                            {
+                                                foreach (var item in Model.DirectMembers)
+                                                {
+                                                    <tr>
+                                                        <td>@item.SNo</td>
+                                                        <td>@item.MemberID</td>
+                                                        <td>@item.MemberName</td>
+                                                        <td>@item.ActivationDate</td>
+                                                    </tr>
+                                                }
+                                            }
+                                            else
+                                            {
+                                                <tr>
+                                                    <td colspan="8" class="text-muted text-center">
+                                                        No records found
+                                                    </td>
+                                                </tr>
+                                            }
                                         </tbody>
+
+
+
                                     </table>
                                 </div>
                             </div>
@@ -279,15 +326,31 @@
                                                 <th>Total</th>
                                             </tr>
                                         </thead>
+
                                         <tbody>
-                                            <tr>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
+                                            @if (Model.LeftRightSummarys != null && Model.LeftRightSummarys.Any())
+                                            {
+                                                foreach (var item in Model.LeftRightSummarys)
+                                                {
+                                                    <tr>
+                                                        <td>@item.Name</td>
+                                                        <td>@item.LeftRegistration</td>
+                                                        <td>@item.RightRegistration</td>
+                                                        <td>@item.TotalRegistration</td>
+                                                    </tr>
+                                                }
+                                            }
+                                            else
+                                            {
+                                                <tr>
+                                                    <td colspan="4" class="text-muted text-center">
+                                                        No records found
+                                                    </td>
+                                                </tr>
+                                            }
                                         </tbody>
                                     </table>
+
                                 </div>
                             </div>
                         </div>
@@ -299,3 +362,39 @@
         </section>
     </div>
 </div>
+@* <script type="text/javascript">
+    function copyText() {
+
+        var element = document.getElementById("ContentPlaceHolder1_lblLink");
+        if (!element) {
+            alert("Link not found");
+            return false;
+        }
+
+        var range, selection;
+
+        if (document.body.createTextRange) {
+            range = document.body.createTextRange();
+            range.moveToElementText(element);
+            range.select();
+        }
+        else if (window.getSelection) {
+            selection = window.getSelection();
+            range = document.createRange();
+            range.selectNodeContents(element);
+            selection.removeAllRanges();
+            selection.addRange(range);
+        }
+
+        try {
+            document.execCommand("copy");
+            alert("Link copied");
+        }
+        catch (err) {
+            alert("Unable to copy link");
+        }
+
+        return false; // 🔥 prevent reload
+    }
+</script>
+ *@

@@ -7,6 +7,10 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Diagnostics;
+using DocumentFormat.OpenXml.Spreadsheet;
+using DocumentFormat.OpenXml.Office2016.Excel;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace Daulatpride.Infrastructure.Repository
 {
@@ -97,104 +101,7 @@ namespace Daulatpride.Infrastructure.Repository
         //    }
         //}
 
-        //        public async Task<bool> SaveRegistrationData(Registration model)
-        //        {
-        //            try
-        //            {
-        //                using (var con = _context.CreateMainConnection())
-        //                {
-        //                    string sql = @"
-        // insert into m_memberMaster(
-        //   idno,memfirstname,memlastname,formno,kitid,RefFormNo,Address1,pincode,mobl,fax,panno,bankname,
-        // acno,IFSCode,District,doj,UpgrdDSessid,upgradedate,NomineeName,aadharno,activestatus,passw,epassw)
-        //VALUES
-        //(
-        //    @SessId, 0, 0, 0, @KitId, @UpLnFormNo, 0, @LegNo, 0, @RefFormNo,
-        //    @MemFirstName, '', @MemRelation, @MemFName, @MemDOB, @MemGender, '',
-        //    @NomineeName, @Address1, '', '', @Tehsil, @City, @District, @StateCode, @CountryId,
-        //    @PinCode, @PhN1, 0, @MobileNo, @MarrgDate, @Password, GETDATE(),
-        //    @Relation, @PanNo, @BankID, @MICRCode, @BranchName, @EmailId,
-        //    @BV, 0, @Password, @Password, 'Y', @BillNo, @RP, @HostIp,
-        //    0, @PayMode, @ChequeNo, 0, @ChequeBank, @ChequeDate, @ChequeBranch,
-        //    'N', @Aadhar1, @Aadhar2, @Aadhar3, @TransactionId,
-        //    @WalletAddress, @UserCode, @RegType,@TransNo
-        //)";
-
-        //                    var param = new
-        //                    {
-        //                        SessId = 1,
-
-        //                        KitId = model.KitId ?? 0,
-        //                        TransNo = model.TransNo ?? 0,
-        //                        UpLnFormNo = model.UpLnFormNo ?? 0,
-        //                        LegNo = model.LegNo ?? 0,
-        //                        RefFormNo = model.RefFormNo ?? 0,
-
-        //                        MemFirstName = model.FullName ?? "",
-        //                        MemRelation = model.MemRelation ?? "",
-        //                        MemFName = model.FatherName ?? "",
-        //                        MemDOB = model.DOB ?? new DateTime(1900, 1, 1),
-        //                        MemGender = model.Gender ?? "",
-
-        //                        NomineeName = model.NomineeName ?? "",
-        //                        Address1 = model.Address ?? "",
-
-        //                        Tehsil = model.City ?? "",
-        //                        City = model.City ?? "",
-        //                        District = model.District ?? "",
-
-        //                        StateCode = model.StateCode ?? 0,
-        //                        CountryId = model.CountryId ?? 0,
-        //                        PinCode = string.IsNullOrEmpty(model.PinCode) ? 0 : Convert.ToInt32(model.PinCode),
-        //                        PhN1 = string.IsNullOrEmpty(model.PhoneNo) ? 0 : Convert.ToInt64(model.PhoneNo),
-        //                        MobileNo = string.IsNullOrEmpty(model.MobileNo) ? 0 : Convert.ToInt64(model.MobileNo),
-
-        //                        MarrgDate = model.MarriageDate ?? new DateTime(1900, 1, 1),
-        //                        Relation = string.IsNullOrWhiteSpace(model.Relation) ? "SELF" : model.Relation,
-        //                        PanNo = model.PanNo ?? "",
-
-        //                        Password = model.Password ?? "",
-        //                        EmailId = model.EmailId ?? "",
-
-        //                        BankID = model.BankId ?? 0,
-        //                        MICRCode = model.MICR ?? "",
-        //                        BranchName = model.BranchName ?? "",
-
-        //                        BV = model.BV ?? 0,
-        //                        BillNo = model.InvoiceNo ?? 0,
-        //                        RP = model.RP ?? 0,
-
-        //                        HostIp = model.HostIp ?? "",
-        //                        PayMode = model.PayModeId ?? 0,
-
-        //                        ChequeNo = model.ChequeNo ?? 0,
-        //                        ChequeBank = model.ChequeBank ?? "",
-        //                        ChequeDate = model.ChequeDate ?? new DateTime(1900, 1, 1),
-        //                        ChequeBranch = model.ChequeBranch ?? "",
-
-        //                        Aadhar1 = model.Aadhar1 ?? 0,
-        //                        Aadhar2 = model.Aadhar2 ?? 0,
-        //                        Aadhar3 = model.Aadhar3 ?? 0,
-
-        //                        TransactionId = model.TransactionId ?? "",
-        //                        WalletAddress = model.WalletAddress?.ToString() ?? "",
-
-        //                        UserCode = model.UserCode ?? 0,
-        //                        RegType = model.RegType ?? 0
-        //                    };
-
-
-        //                    int rows = await con.ExecuteAsync(sql, param);
-        //                    return rows > 0;
-        //                }
-        //            }
-        //            catch (Exception ex)
-        //            {
-        //                Debug.WriteLine("SaveRegistrationData ERROR => " + ex.Message);
-        //                throw;
-        //            }
-        //        }
-
+     
         public string GenerateRandomString(int iLength)
         {
             Random rdm = new Random();
@@ -497,6 +404,121 @@ INSERT INTO m_memberMaster
                     FormNo = result.FormNo == null ? 0 : (int)result.FormNo,
                     KitId = result.KitId == null ? 0 : (int)result.KitId
                 };
+            }
+        }
+        public async Task<Dashboard> LoadDashboard(string formNo)
+        {
+            using var connection = _context.CreateSelectConnection();
+            var model = new Dashboard();
+
+            using var multi = await connection.QueryMultipleAsync(
+                "sp_LoadTeamNewUpdate",
+                new { FormNo = formNo },
+                commandType: CommandType.StoredProcedure);
+
+            // 1️⃣ sp_IncomeOld
+            await multi.ReadAsync<dynamic>();
+
+            // 2️⃣ sp_MyDirect
+            await multi.ReadAsync<dynamic>();
+
+            // 3️⃣ User Info
+            var user = await multi.ReadFirstOrDefaultAsync<UserInfoVM>();
+            if (user != null)
+            {
+                model.UserName = user.Name;
+                model.UserId = user.IdNo;
+                model.DOJ = user.DOj;
+                model.SponsorId = user.SponsorId;
+                model.SponsorName = user.SponsorName;
+                // User Info read hone ke baad
+             //   model.ReferralLink =
+             //baseUrl + "/Registration/Registration?ref=" +
+             //CryptoHelper.Encrypt(user.Mid + "/0/D");
+
+             //   model.ReferralLinkClient =
+             //       baseUrl + "/Registration/Registration?ref=" +
+             //       CryptoHelper.Encrypt(user.Mid + "/0/A");
+
+            }
+
+            // 4️⃣ Sp_MyTeambsiness
+            await multi.ReadAsync<dynamic>();
+
+            // 5️⃣ Sp_GetinvestmentUpdate
+            await multi.ReadAsync<dynamic>();
+
+            // 6️⃣ Wallets
+            model.Wallets = (await multi.ReadAsync<Wallet>()).ToList();
+
+            // 7️⃣ Sp_MyTeamDetailNew
+            await multi.ReadAsync<dynamic>();
+
+            // 8️⃣ News
+            model.News = (await multi.ReadAsync<News>()).ToList();
+
+            // 9️⃣ Rank
+            await multi.ReadAsync<dynamic>();
+
+            // 🔟 Popup
+            await multi.ReadAsync<dynamic>();
+
+            // 1️⃣1️⃣ OpenLevel
+            await multi.ReadAsync<dynamic>();
+
+            // 1️⃣2️⃣ Widgets (Name, Direct, Icon, Div)
+            model.Widgets = (await multi.ReadAsync<Widget>()).ToList();
+
+            // 1️⃣3️⃣ Direct Members
+            model.DirectMembers = (await multi.ReadAsync<DirectMemberV>()).ToList();
+
+            // 1️⃣4️⃣ Total Withdrawals
+            model.TotalWithdrawals = (await multi.ReadAsync<TotalWithdrawal>()).ToList();
+            model.WalletSummarys = (await multi.ReadAsync<WalletSummary>()).ToList();
+            model.LeftRightSummarys = (await multi.ReadAsync<LeftRightSummary>()).ToList();
+
+            return model;
+        }
+
+        public static class CryptoHelper
+        {
+            private static readonly byte[] Key =
+                Encoding.ASCII.GetBytes("6b04d38748f94490a636cf1be3d82841");
+
+            private static readonly byte[] IV =
+                Encoding.ASCII.GetBytes("f8adbf3c94b7463d");
+
+            public static string Encrypt(string plainText)
+            {
+                byte[] encrypted;
+                using (AesManaged aes = new AesManaged())
+                {
+                    var encryptor = aes.CreateEncryptor(Key, IV);
+                    using (var ms = new MemoryStream())
+                    using (var cs = new CryptoStream(ms, encryptor, CryptoStreamMode.Write))
+                    using (var sw = new StreamWriter(cs))
+                    {
+                        sw.Write(plainText);
+                        sw.Close();
+                        encrypted = ms.ToArray();
+                    }
+                }
+                return Convert.ToBase64String(encrypted);
+            }
+
+            public static string Decrypt(string data)
+            {
+                byte[] cipherText = Convert.FromBase64String(data);
+                using (AesManaged aes = new AesManaged())
+                {
+                    var decryptor = aes.CreateDecryptor(Key, IV);
+                    using (var ms = new MemoryStream(cipherText))
+                    using (var cs = new CryptoStream(ms, decryptor, CryptoStreamMode.Read))
+                    using (var sr = new StreamReader(cs))
+                    {
+                        return sr.ReadToEnd();
+                    }
+                }
             }
         }
 

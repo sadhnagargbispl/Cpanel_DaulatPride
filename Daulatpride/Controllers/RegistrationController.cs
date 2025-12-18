@@ -5,7 +5,7 @@ using Daulatpride.Domain.Entities;
 using ClosedXML.Excel;
 using DocumentFormat.OpenXml.Office2010.Excel;
 using DocumentFormat.OpenXml.Wordprocessing;
-using Microsoft.AspNetCore.Razor.Language.Intermediate;
+//using Microsoft.AspNetCore.Razor.Language.Intermediate;
 using System.Text;
 using DocumentFormat.OpenXml.Vml;
 using System.Security.Cryptography.X509Certificates;
@@ -176,11 +176,11 @@ namespace Daulatpride.Controllers
             if (model == null)
                 return Json(new { success = false, message = "No data received" });
 
-            if (string.IsNullOrWhiteSpace(model.EmailId))
-                return Json(new { success = false, message = "Email is required" });
+            if (await i_report.IsEmailRegistered(model.EmailId.Trim()))
+                         return Json(new { success = false, message = "Email already registered" });
 
-            try
-            {
+                try
+                {
                 var profile = await i_report.SaveRegistrationDataAsync(model);
 
                 if (profile == null || string.IsNullOrEmpty(profile.IDNO))

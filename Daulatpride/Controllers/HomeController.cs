@@ -9,28 +9,29 @@ namespace Daulatpride.Controllers
 {
     public class HomeController : Controller
     {
-        //private readonly ILogger<HomeController> _logger;
-        //private readonly I_Report ireport;
-        ////private int CompNo;
-
-        //public HomeController(ILogger<HomeController> logger, I_Report i_report)
-        //{
-        //    _logger = logger;
-        //    ireport = i_report;
-        //}
         private readonly ILogger<HomeController> _logger;
+         private readonly I_Report i_report;
+        //private int CompNo;
 
-        // ? ONLY LOGGER
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, I_Report i_report1)
         {
             _logger = logger;
+            i_report = i_report1;
         }
 
-     
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            if (HttpContext.Session.GetString("Status") != "OK")
+                return RedirectToAction("Logout", "Account");
+
+            string formNo = HttpContext.Session.GetString("FormNo");
+
+
+            Dashboard model = await i_report.LoadDashboard(formNo);
+            return View(model);
         }
+
+
 
         public IActionResult Privacy()
         {

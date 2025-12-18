@@ -1,1212 +1,1208 @@
 {
   "Files": [
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Daulatpride.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Daulatpride.kupdqjgqi6.bundle.scp.css"
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Daulatpride.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Daulatpride.bundle.scp.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\css\\bootstrap.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Login-assets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\css\\fontawesome-all.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\css\\fontawesome-all.min.css",
       "PackagePath": "staticwebassets\\Login-assets\\css\\fontawesome-all.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\Flaticon.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\Flaticon.eot",
       "PackagePath": "staticwebassets\\Login-assets\\font\\Flaticon.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\Flaticon.svg",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\Flaticon.svg",
       "PackagePath": "staticwebassets\\Login-assets\\font\\Flaticon.svg"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\Flaticon.ttf",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\Flaticon.ttf",
       "PackagePath": "staticwebassets\\Login-assets\\font\\Flaticon.ttf"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\Flaticon.woff",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\Flaticon.woff",
       "PackagePath": "staticwebassets\\Login-assets\\font\\Flaticon.woff"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\Flaticon.woff2",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\Flaticon.woff2",
       "PackagePath": "staticwebassets\\Login-assets\\font\\Flaticon.woff2"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\Flaticond41dd41d.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\Flaticond41dd41d.eot",
       "PackagePath": "staticwebassets\\Login-assets\\font\\Flaticond41dd41d.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\flaticon.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\font\\flaticon.css",
       "PackagePath": "staticwebassets\\Login-assets\\font\\flaticon.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\img\\figure\\bg33-1.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\img\\figure\\bg33-1.html",
       "PackagePath": "staticwebassets\\Login-assets\\img\\figure\\bg33-1.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\img\\figure\\bg_img - Copy.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\img\\figure\\bg_img - Copy.png",
       "PackagePath": "staticwebassets\\Login-assets\\img\\figure\\bg_img - Copy.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\img\\figure\\bg_img.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\img\\figure\\bg_img.png",
       "PackagePath": "staticwebassets\\Login-assets\\img\\figure\\bg_img.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\js\\bootstrap.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Login-assets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\js\\imagesloaded.pkgd.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\js\\imagesloaded.pkgd.min.js",
       "PackagePath": "staticwebassets\\Login-assets\\js\\imagesloaded.pkgd.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\js\\jquery-3.5.0.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\js\\jquery-3.5.0.min.js",
       "PackagePath": "staticwebassets\\Login-assets\\js\\jquery-3.5.0.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\js\\main.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\js\\main.js",
       "PackagePath": "staticwebassets\\Login-assets\\js\\main.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\js\\validator.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\js\\validator.min.js",
       "PackagePath": "staticwebassets\\Login-assets\\js\\validator.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\style.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\style.css",
       "PackagePath": "staticwebassets\\Login-assets\\style.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-brands-400.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-brands-400.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-brands-400.html",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-brands-400.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-brands-400.ttf",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-brands-400.woff",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-brands-400.woff2",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-brands-400d41dd41d.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-brands-400d41dd41d.eot",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-brands-400d41dd41d.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-regular-400.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-regular-400.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-regular-400.html",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-regular-400.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-regular-400.ttf",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-regular-400.woff",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-regular-400.woff2",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-regular-400d41dd41d.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-regular-400d41dd41d.eot",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-regular-400d41dd41d.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-solid-900.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-solid-900.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-solid-900.html",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-solid-900.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-solid-900.ttf",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-solid-900.woff",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-solid-900.woff2",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-solid-900d41dd41d.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\Login-assets\\webfonts\\fa-solid-900d41dd41d.eot",
       "PackagePath": "staticwebassets\\Login-assets\\webfonts\\fa-solid-900d41dd41d.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\css\\bootstrap.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\css\\fontawesome-all.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\css\\fontawesome-all.min.css",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\css\\fontawesome-all.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\Flaticon.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\Flaticon.eot",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\font\\Flaticon.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\Flaticon.svg",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\Flaticon.svg",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\font\\Flaticon.svg"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\Flaticon.ttf",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\Flaticon.ttf",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\font\\Flaticon.ttf"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\Flaticon.woff",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\Flaticon.woff",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\font\\Flaticon.woff"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\Flaticon.woff2",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\Flaticon.woff2",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\font\\Flaticon.woff2"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\Flaticond41dd41d.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\Flaticond41dd41d.eot",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\font\\Flaticond41dd41d.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\flaticon.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\font\\flaticon.css",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\font\\flaticon.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\img\\figure\\bg33-1.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\img\\figure\\bg33-1.html",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\img\\figure\\bg33-1.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\img\\figure\\bg_img - Copy.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\img\\figure\\bg_img - Copy.png",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\img\\figure\\bg_img - Copy.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\img\\figure\\bg_img.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\img\\figure\\bg_img.png",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\img\\figure\\bg_img.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\js\\bootstrap.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\js\\imagesloaded.pkgd.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\js\\imagesloaded.pkgd.min.js",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\js\\imagesloaded.pkgd.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\js\\jquery-3.5.0.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\js\\jquery-3.5.0.min.js",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\js\\jquery-3.5.0.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\js\\main.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\js\\main.js",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\js\\main.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\js\\validator.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\js\\validator.min.js",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\js\\validator.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\style.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\style.css",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\style.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.html",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.ttf",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.woff",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.woff2",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-brands-400d41dd41d.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-brands-400d41dd41d.eot",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-brands-400d41dd41d.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.html",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.ttf",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.woff",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.woff2",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-regular-400d41dd41d.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-regular-400d41dd41d.eot",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-regular-400d41dd41d.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.html",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.ttf",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.woff",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.woff2",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-solid-900d41dd41d.eot",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\Login-assets\\webfonts\\fa-solid-900d41dd41d.eot",
       "PackagePath": "staticwebassets\\backup-theme\\Login-assets\\webfonts\\fa-solid-900d41dd41d.eot"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\css\\Loader.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\css\\Loader.html",
       "PackagePath": "staticwebassets\\backup-theme\\css\\Loader.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard.html",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\01.jpg",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\01.jpg",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\01.jpg"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\1(1).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\1(1).png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\1(1).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\1(2).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\1(2).png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\1(2).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\1(3).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\1(3).png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\1(3).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\1(4).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\1(4).png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\1(4).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\1.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\1.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\1.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\11.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\11.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\11.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\12.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\12.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\12.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\13.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\13.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\13.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\16.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\16.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\16.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\17.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\17.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\17.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\19.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\19.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\19.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\2(1).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\2(1).png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\2(1).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\2(2).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\2(2).png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\2(2).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\2(3).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\2(3).png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\2(3).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\2(4).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\2(4).png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\2(4).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\2(5).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\2(5).png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\2(5).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\2.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\2.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\2.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\21.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\21.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\21.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\3(1).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\3(1).png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\3(1).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\3(2).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\3(2).png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\3(2).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\3.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\3.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\3.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\4(1).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\4(1).png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\4(1).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\4.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\4.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\4.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\6.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\6.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\6.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\all.min(1).css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\all.min(1).css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\all.min(1).css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\all.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\all.min.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\all.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\app.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\app.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\app.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\arrow circle.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\arrow circle.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\arrow circle.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\backend-bundle.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\backend-bundle.min.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\backend-bundle.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\backend-plugin.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\backend-plugin.min.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\backend-plugin.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\backend.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\backend.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\backend.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\chart-custom.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\chart-custom.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\chart-custom.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\circle.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\circle.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\circle.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\coin_voice.mp3",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\coin_voice.mp3",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\coin_voice.mp3"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\cryptrad_stylesheet.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\cryptrad_stylesheet.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\cryptrad_stylesheet.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\dripicons.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\dripicons.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\dripicons.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\favicon.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\favicon.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\favicon.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\flex-tree.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\flex-tree.min.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\flex-tree.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\font-awesome.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\font-awesome.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\imagesloaded.pkgd.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\imagesloaded.pkgd.min.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\imagesloaded.pkgd.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\jquery.dataTables.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\jquery.dataTables.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\jquery.dataTables.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\jquery.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\jquery.min.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\jquery.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\jsapi_compiled_corechart_module.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\jsapi_compiled_corechart_module.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\jsapi_compiled_corechart_module.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\jsapi_compiled_default_module.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\jsapi_compiled_default_module.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\jsapi_compiled_default_module.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\jsapi_compiled_graphics_module.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\jsapi_compiled_graphics_module.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\jsapi_compiled_graphics_module.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\jsapi_compiled_ui_module.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\jsapi_compiled_ui_module.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\jsapi_compiled_ui_module.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\line-awesome.min(1).css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\line-awesome.min(1).css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\line-awesome.min(1).css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\line-awesome.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\line-awesome.min.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\line-awesome.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\loader.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\loader.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\loader.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\loader.js(1)",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\loader.js(1)",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\loader.js(1)"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\login_logo.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\login_logo.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\login_logo.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\logo.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\logo.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\logo.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main(1).css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main(1).css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\main(1).css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main(2).css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main(2).css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\main(2).css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main(3).css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main(3).css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\main(3).css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\main.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\main.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main.js(1)",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main.js(1)",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\main.js(1)"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main.js(2)",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main.js(2)",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\main.js(2)"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main.js(3)",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\main.js(3)",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\main.js(3)"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\mapbox-gl.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\mapbox-gl.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\mapbox-gl.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\mapbox-gl.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\mapbox-gl.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\mapbox-gl.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\mapbox.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\mapbox.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\mapbox.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\masonry.pkgd.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\masonry.pkgd.min.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\masonry.pkgd.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\rectangle circle.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\rectangle circle.png",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\rectangle circle.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\remixicon.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\remixicon.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\remixicon.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\saved_resource.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\saved_resource.html",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\saved_resource.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\slider.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\slider.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\slider.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\sweetalert.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\sweetalert.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\sweetalert.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\table-treeview.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\table-treeview.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\table-treeview.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\tooltip.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\tooltip.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\tooltip.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\tree.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\tree.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\tree.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\util.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\util.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\util.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\vector-map-custom.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\vector-map-custom.js",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\vector-map-custom.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\web-style.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\dashboard_files\\web-style.css",
       "PackagePath": "staticwebassets\\backup-theme\\dashboard_files\\web-style.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\forgotpass.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\forgotpass.html",
       "PackagePath": "staticwebassets\\backup-theme\\forgotpass.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\home-cryptrad.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\home-cryptrad.html",
       "PackagePath": "staticwebassets\\backup-theme\\home-cryptrad.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\images\\coin.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\images\\coin.png",
       "PackagePath": "staticwebassets\\backup-theme\\images\\coin.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\images\\logo-white.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\images\\logo-white.png",
       "PackagePath": "staticwebassets\\backup-theme\\images\\logo-white.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\img\\web\\mobicryp minting web view.jpg",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\img\\web\\mobicryp minting web view.jpg",
       "PackagePath": "staticwebassets\\backup-theme\\img\\web\\mobicryp minting web view.jpg"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\login.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\login.html",
       "PackagePath": "staticwebassets\\backup-theme\\login.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\login_old.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\login_old.html",
       "PackagePath": "staticwebassets\\backup-theme\\login_old.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\page-details.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\page-details.html",
       "PackagePath": "staticwebassets\\backup-theme\\page-details.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\register.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\backup-theme\\register.html",
       "PackagePath": "staticwebassets\\backup-theme\\register.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\css\\Loader.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\css\\Loader.html",
       "PackagePath": "staticwebassets\\css\\Loader.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\css\\site.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard.html",
       "PackagePath": "staticwebassets\\dashboard.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\01.jpg",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\01.jpg",
       "PackagePath": "staticwebassets\\dashboard_files\\01.jpg"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\1(1).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\1(1).png",
       "PackagePath": "staticwebassets\\dashboard_files\\1(1).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\1(2).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\1(2).png",
       "PackagePath": "staticwebassets\\dashboard_files\\1(2).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\1(3).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\1(3).png",
       "PackagePath": "staticwebassets\\dashboard_files\\1(3).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\1(4).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\1(4).png",
       "PackagePath": "staticwebassets\\dashboard_files\\1(4).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\1.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\1.png",
       "PackagePath": "staticwebassets\\dashboard_files\\1.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\11.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\11.png",
       "PackagePath": "staticwebassets\\dashboard_files\\11.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\12.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\12.png",
       "PackagePath": "staticwebassets\\dashboard_files\\12.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\13.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\13.png",
       "PackagePath": "staticwebassets\\dashboard_files\\13.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\16.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\16.png",
       "PackagePath": "staticwebassets\\dashboard_files\\16.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\17.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\17.png",
       "PackagePath": "staticwebassets\\dashboard_files\\17.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\19.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\19.png",
       "PackagePath": "staticwebassets\\dashboard_files\\19.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\2(1).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\2(1).png",
       "PackagePath": "staticwebassets\\dashboard_files\\2(1).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\2(2).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\2(2).png",
       "PackagePath": "staticwebassets\\dashboard_files\\2(2).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\2(3).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\2(3).png",
       "PackagePath": "staticwebassets\\dashboard_files\\2(3).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\2(4).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\2(4).png",
       "PackagePath": "staticwebassets\\dashboard_files\\2(4).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\2(5).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\2(5).png",
       "PackagePath": "staticwebassets\\dashboard_files\\2(5).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\2.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\2.png",
       "PackagePath": "staticwebassets\\dashboard_files\\2.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\21.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\21.png",
       "PackagePath": "staticwebassets\\dashboard_files\\21.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\3(1).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\3(1).png",
       "PackagePath": "staticwebassets\\dashboard_files\\3(1).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\3(2).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\3(2).png",
       "PackagePath": "staticwebassets\\dashboard_files\\3(2).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\3.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\3.png",
       "PackagePath": "staticwebassets\\dashboard_files\\3.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\4(1).png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\4(1).png",
       "PackagePath": "staticwebassets\\dashboard_files\\4(1).png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\4.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\4.png",
       "PackagePath": "staticwebassets\\dashboard_files\\4.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\6.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\6.png",
       "PackagePath": "staticwebassets\\dashboard_files\\6.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\all.min(1).css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\all.min(1).css",
       "PackagePath": "staticwebassets\\dashboard_files\\all.min(1).css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\all.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\all.min.css",
       "PackagePath": "staticwebassets\\dashboard_files\\all.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\app.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\app.js",
       "PackagePath": "staticwebassets\\dashboard_files\\app.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\arrow circle.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\arrow circle.png",
       "PackagePath": "staticwebassets\\dashboard_files\\arrow circle.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\backend-bundle.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\backend-bundle.min.js",
       "PackagePath": "staticwebassets\\dashboard_files\\backend-bundle.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\backend-plugin.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\backend-plugin.min.css",
       "PackagePath": "staticwebassets\\dashboard_files\\backend-plugin.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\backend.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\backend.css",
       "PackagePath": "staticwebassets\\dashboard_files\\backend.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\chart-custom.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\chart-custom.js",
       "PackagePath": "staticwebassets\\dashboard_files\\chart-custom.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\circle.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\circle.png",
       "PackagePath": "staticwebassets\\dashboard_files\\circle.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\coin_voice.mp3",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\coin_voice.mp3",
       "PackagePath": "staticwebassets\\dashboard_files\\coin_voice.mp3"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\cryptrad_stylesheet.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\cryptrad_stylesheet.css",
       "PackagePath": "staticwebassets\\dashboard_files\\cryptrad_stylesheet.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\dripicons.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\dripicons.css",
       "PackagePath": "staticwebassets\\dashboard_files\\dripicons.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\favicon.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\favicon.png",
       "PackagePath": "staticwebassets\\dashboard_files\\favicon.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\flex-tree.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\flex-tree.min.js",
       "PackagePath": "staticwebassets\\dashboard_files\\flex-tree.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\font-awesome.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\dashboard_files\\font-awesome.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\imagesloaded.pkgd.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\imagesloaded.pkgd.min.js",
       "PackagePath": "staticwebassets\\dashboard_files\\imagesloaded.pkgd.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\jquery.dataTables.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\jquery.dataTables.css",
       "PackagePath": "staticwebassets\\dashboard_files\\jquery.dataTables.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\jquery.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\jquery.min.js",
       "PackagePath": "staticwebassets\\dashboard_files\\jquery.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\jsapi_compiled_corechart_module.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\jsapi_compiled_corechart_module.js",
       "PackagePath": "staticwebassets\\dashboard_files\\jsapi_compiled_corechart_module.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\jsapi_compiled_default_module.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\jsapi_compiled_default_module.js",
       "PackagePath": "staticwebassets\\dashboard_files\\jsapi_compiled_default_module.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\jsapi_compiled_graphics_module.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\jsapi_compiled_graphics_module.js",
       "PackagePath": "staticwebassets\\dashboard_files\\jsapi_compiled_graphics_module.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\jsapi_compiled_ui_module.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\jsapi_compiled_ui_module.js",
       "PackagePath": "staticwebassets\\dashboard_files\\jsapi_compiled_ui_module.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\line-awesome.min(1).css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\line-awesome.min(1).css",
       "PackagePath": "staticwebassets\\dashboard_files\\line-awesome.min(1).css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\line-awesome.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\line-awesome.min.css",
       "PackagePath": "staticwebassets\\dashboard_files\\line-awesome.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\loader.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\loader.js",
       "PackagePath": "staticwebassets\\dashboard_files\\loader.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\loader.js(1)",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\loader.js(1)",
       "PackagePath": "staticwebassets\\dashboard_files\\loader.js(1)"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\login_logo.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\login_logo.png",
       "PackagePath": "staticwebassets\\dashboard_files\\login_logo.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\logo.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\logo.png",
       "PackagePath": "staticwebassets\\dashboard_files\\logo.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main(1).css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main(1).css",
       "PackagePath": "staticwebassets\\dashboard_files\\main(1).css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main(2).css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main(2).css",
       "PackagePath": "staticwebassets\\dashboard_files\\main(2).css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main(3).css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main(3).css",
       "PackagePath": "staticwebassets\\dashboard_files\\main(3).css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main.css",
       "PackagePath": "staticwebassets\\dashboard_files\\main.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main.js",
       "PackagePath": "staticwebassets\\dashboard_files\\main.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main.js(1)",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main.js(1)",
       "PackagePath": "staticwebassets\\dashboard_files\\main.js(1)"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main.js(2)",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main.js(2)",
       "PackagePath": "staticwebassets\\dashboard_files\\main.js(2)"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main.js(3)",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\main.js(3)",
       "PackagePath": "staticwebassets\\dashboard_files\\main.js(3)"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\mapbox-gl.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\mapbox-gl.css",
       "PackagePath": "staticwebassets\\dashboard_files\\mapbox-gl.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\mapbox-gl.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\mapbox-gl.js",
       "PackagePath": "staticwebassets\\dashboard_files\\mapbox-gl.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\mapbox.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\mapbox.js",
       "PackagePath": "staticwebassets\\dashboard_files\\mapbox.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\masonry.pkgd.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\masonry.pkgd.min.js",
       "PackagePath": "staticwebassets\\dashboard_files\\masonry.pkgd.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\rectangle circle.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\rectangle circle.png",
       "PackagePath": "staticwebassets\\dashboard_files\\rectangle circle.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\remixicon.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\remixicon.css",
       "PackagePath": "staticwebassets\\dashboard_files\\remixicon.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\saved_resource.html",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\saved_resource.html",
       "PackagePath": "staticwebassets\\dashboard_files\\saved_resource.html"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\slider.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\slider.js",
       "PackagePath": "staticwebassets\\dashboard_files\\slider.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\sweetalert.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\sweetalert.js",
       "PackagePath": "staticwebassets\\dashboard_files\\sweetalert.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\table-treeview.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\table-treeview.js",
       "PackagePath": "staticwebassets\\dashboard_files\\table-treeview.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\tooltip.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\tooltip.css",
       "PackagePath": "staticwebassets\\dashboard_files\\tooltip.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\tree.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\tree.js",
       "PackagePath": "staticwebassets\\dashboard_files\\tree.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\util.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\util.css",
       "PackagePath": "staticwebassets\\dashboard_files\\util.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\vector-map-custom.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\vector-map-custom.js",
       "PackagePath": "staticwebassets\\dashboard_files\\vector-map-custom.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\web-style.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\dashboard_files\\web-style.css",
       "PackagePath": "staticwebassets\\dashboard_files\\web-style.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\favicon.ico",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\images\\coin.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\images\\coin.png",
       "PackagePath": "staticwebassets\\images\\coin.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\images\\logo-white.png",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\images\\logo-white.png",
       "PackagePath": "staticwebassets\\images\\logo-white.png"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\img\\web\\mobicryp minting web view.jpg",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\img\\web\\mobicryp minting web view.jpg",
       "PackagePath": "staticwebassets\\img\\web\\mobicryp minting web view.jpg"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\js\\site.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\Sadhna Garg\\GitHubC#\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\dimpal\\Cpanel_DaulatPride\\Daulatpride\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Daulatpride.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Daulatpride.Microsoft.AspNetCore.StaticWebAssets.props",

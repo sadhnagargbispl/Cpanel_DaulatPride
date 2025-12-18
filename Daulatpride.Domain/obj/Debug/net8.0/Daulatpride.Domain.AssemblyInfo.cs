@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Daulatpride.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98c8ca24763d85cf8af20925fefc229611a9503e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36c41f1b8fe04859a0d50d11107299378709cca4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Daulatpride.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Daulatpride.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

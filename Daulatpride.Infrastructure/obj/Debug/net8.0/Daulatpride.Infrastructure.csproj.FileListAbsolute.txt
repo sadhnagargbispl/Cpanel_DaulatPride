@@ -29,3 +29,19 @@ E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\
 E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\refint\Daulatpride.Infrastructure.dll
 E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.pdb
 E:\Sadhna Garg\GitHubC#\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\ref\Daulatpride.Infrastructure.dll
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\bin\Debug\net8.0\Daulatpride.Infrastructure.deps.json
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\bin\Debug\net8.0\Daulatpride.Infrastructure.dll
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\bin\Debug\net8.0\Daulatpride.Infrastructure.pdb
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\bin\Debug\net8.0\Daulatpride.Domain.dll
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\bin\Debug\net8.0\Daulatpride.Domain.pdb
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.csproj.AssemblyReference.cache
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.AssemblyInfoInputs.cache
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.AssemblyInfo.cs
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.csproj.CoreCompileInputs.cache
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.sourcelink.json
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpr.177834C9.Up2Date
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.dll
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\refint\Daulatpride.Infrastructure.dll
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\Daulatpride.Infrastructure.pdb
+D:\dimpal\Cpanel_DaulatPride\Daulatpride.Infrastructure\obj\Debug\net8.0\ref\Daulatpride.Infrastructure.dll

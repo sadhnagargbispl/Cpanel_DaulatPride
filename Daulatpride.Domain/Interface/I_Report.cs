@@ -19,7 +19,7 @@ namespace Daulatpride.Domain.Interface
         Task<ProfileResult> SaveRegistrationDataAsync(Registration model);
         MemberDto GetMemberByCondition(string condition);
 
-
+        Task<Dashboard> LoadDashboard(string formNo);
 
     }
 }
