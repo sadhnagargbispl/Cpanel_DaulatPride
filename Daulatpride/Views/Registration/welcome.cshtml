@@ -1,0 +1,92 @@
+﻿
+@model Daulatpride.Domain.Entities.WelcomeViewModel
+
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<section class="container mt-4">
+    <div class="card shadow-sm border-0">
+
+        <!-- 🔹 CARD HEADING -->
+        <div class="card-header bg-white border-bottom">
+            <h4 class="fw-bold mb-0 text-dark">
+                Welcome Letter
+            </h4>
+        </div>
+
+        <!-- 🔹 CARD BODY -->
+        <div class="card-body">
+
+            <h5 class="fw-semibold text-primary mb-3">
+                Welcome to the team <strong>Capstones</strong>
+            </h5>
+
+            <p class="mb-1">
+                Dear <strong>@Model.MemberName</strong>,
+            </p>
+
+            <p class="text-muted">
+                We are excited to have you onboard and look forward to your journey with us.
+            </p>
+
+            <hr class="my-3" />
+
+            <!-- 🔹 DETAILS TABLE -->
+            <div class="table-responsive mt-4">
+                <table class="table welcome-table">
+                    <tbody>
+                        <tr>
+                            <th class="bg-light fw-semibold" style="width:30%">
+                                Member Name
+                            </th>
+                            <td>@Model.MemberName</td>
+                        </tr>
+                        <tr>
+                            <th class="bg-light fw-semibold">
+                                Member ID
+                            </th>
+                            <td>@Model.MemberId</td>
+                        </tr>
+                        <tr>
+                            <th class="bg-light fw-semibold">
+                                Joining Date
+                            </th>
+                            <td>@Model.JoiningDate.ToString("dd-MMM-yyyy")</td>
+                        </tr>
+                        <tr>
+                            <th class="bg-light fw-semibold">
+                                Password
+                            </th>
+                            <td>
+                                <span class="badge bg-secondary">
+                                    @Model.Password
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="bg-light fw-semibold">
+                                Transaction Password
+                            </th>
+                            <td>
+                                <span class="badge bg-secondary">
+                                    @Model.TransactionPassword
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- 🔹 ACTION -->
+            <div class="text-end mt-4">
+                <a href="/Login" class="btn btn-primary px-4">
+                    Go To Login
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+

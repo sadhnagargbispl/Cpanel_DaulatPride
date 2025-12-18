@@ -3,107 +3,686 @@
 @{
     ViewData["Title"] = "Registration";
 }
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<!-- BUTTON TO OPEN MODAL -->
-<button class="btn btn-primary" data-coreui-toggle="modal" data-coreui-target="#customerModal">
-    Open Registration
-</button>
+<div class="container mt-4">
+    <section class="card p-3">
+        <div class="container">
+            <h4>Registration</h4>
+            <div class="clearfix"></div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <form action="#" method="post" enctype="multipart/form-data">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label>Sponsor Id</label>
+                                <input type="text" id="SponsorId" name="SponsorId" class="form-control" placeholder="Enter Sponsor ID" required>
+                            </div>
+                            <div class="control-group " id="rwSpnsr" runat="server" visible="false">
+                                <label class="control-label " style="display: none;">
+                                    Upliner ID<span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>
+                                </label>
+                                <asp:TextBox ID="txtUplinerId" class="input-xxlarge" runat="server" AutoPostBack="True"
+                                             ValidationGroup="eSponsor" autocomplete="off"></asp:TextBox>
+                                <asp:Label ID="lblUplnrNm" runat="server" ForeColor="#D11F7B"></asp:Label>
+                            </div>
+                            <div class="control-group " runat="server" id="DivLeg1" style="display: none;">
+                                <label class="control-label ">
+                                    Leg <span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>
+                                </label>
 
-<!-- MODAL -->
-<div class="modal fade" id="customerModal" tabindex="-1">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
+                                <div class="col-sm-10">
+                                    <asp:RadioButtonList ID="RbtnLegNo" runat="server" RepeatDirection="Horizontal" Style="width: 150px" />
+                                </div>
+                            </div>
 
-            <form method="post" asp-action="Index" asp-controller="Registration">
+                            <div id="dvreg" runat="server" visible="false">
+                                <div class="control-group ">
+                                    <label class="control-label ">
+                                       @*  Registration As *@
+                                    </label>
+                                    <asp:RadioButtonList ID="RbCategory" runat="server" RepeatDirection="Horizontal"
+                                                         AutoPostBack="true">
+                                        <asp:ListItem Text="Distributer" Value="D" Selected="True"></asp:ListItem>
+                                        <asp:ListItem Text="Client" Value="A"></asp:ListItem>
+                                    </asp:RadioButtonList>
+                                </div>
+                                <div class="control-group" id="RegType" style="display: none">
+                                    <label class="control-label ">
+                                        <asp:Label ID="LblRegType" Text="Registration Type" runat="server"></asp:Label>
+                                    </label>
+                                    <asp:RadioButtonList ID="CbSubCategory" runat="server" RepeatDirection="Horizontal"
+                                                         onchange="return GetRegistrationType()">
+                                        <asp:ListItem Text="ProprietorShip" Value="SP" Selected="True"></asp:ListItem>
+                                        <asp:ListItem Text="Partnership Firm" Value="PF"></asp:ListItem>
+                                        <asp:ListItem Text="Private Limited Company" Value="PL"></asp:ListItem>
+                                    </asp:RadioButtonList>
+                                </div>
+                            </div>  <div class="control-group" id="TrPrtnrCap" style="display: none">
+                                            <label class="control-label ">
+                                                <asp:Label ID="LblPartnerName" runat="server" Text="Partner Name Seperated By Comma(,)"></asp:Label></label>
+                                        </div>
+                            <div class="control-group " id="divFName" runat="server" visible="false">
+                                <label class="control-label ">
+                               @*      Father/HUSBAND's Name *@
+                                </label>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <asp:DropDownList CssClass="input-xxlarge" ID="CmbType" runat="server">
+                                            <asp:ListItem Value="S/O" Text="S/O"></asp:ListItem>
+                                            <asp:ListItem Value="D/O" Text="D/O"></asp:ListItem>
+                                            <asp:ListItem Value="W/O" Text="W/O"></asp:ListItem>
+                                            <asp:ListItem Value="H/O" Text="H/O"></asp:ListItem>
+                                            <asp:ListItem Value="C/O" Text="C/O"></asp:ListItem>
+                                        </asp:DropDownList>
+                                    </div>
+                                    <div class="col-sm-9" style="padding-left: 0px; display: none;" visible="false">
+                                        <asp:TextBox ID="txtFNm" runat="server" class="input-xxlarge" autocomplete="off"></asp:TextBox>
+                                    </div>
 
-                <!-- HEADER -->
-                <div class="modal-header">
-                    <h5 class="modal-title">Registration</h5>
-                    <button type="button" class="btn-close" data-coreui-dismiss="modal"></button>
+                                </div>
+                            </div>
+                            <div class="control-group" id="Div2" visible="false" runat="server">
+                                @* <label class="control-label ">
+                                    <span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>
+                                </label> *@
+                                <asp:RadioButtonList ID="RbtMarried" runat="server" RepeatColumns="2" RepeatDirection="Horizontal"
+                                                     RepeatLayout="Flow" onchange="return GetSelectedItem()" autocomplete="off">
+                                    <asp:ListItem Text="Married" Value="Y"></asp:ListItem>
+                                    <asp:ListItem Text="UnMarried" Value="N"></asp:ListItem>
+                                </asp:RadioButtonList>
+                                <span class="red"></span>
+                            </div>
+                            <div class="control-group " id="divMarriageDate" visible="false" style="display: none;">
+                                <label class="control-label ">
+                                    Marriage Date
+                                </label>
+                                <div class="row">
+                                    <div class="col-sm-4  p0 pl10">
+                                        <asp:DropDownList ID="DDlMDay" runat="server" CssClass="input-xxlarge">
+                                        </asp:DropDownList>
+                                    </div>
+                                    <div class="col-sm-4  p0 pl10">
+                                        <asp:DropDownList ID="DDLMMonth" runat="server" CssClass="input-xxlarge">
+                                        </asp:DropDownList>
+                                    </div>
+                                    <div class="col-sm-4  p0 pl10">
+                                        <asp:DropDownList ID="DDLMYear" runat="server" Style="padding-right: 30px;" CssClass="input-xxlarge">
+                                        </asp:DropDownList>
+                                    </div>
+                                </div>
+                            </div>  <div class="control-group" id="CompName" style="display: none">
+                                <label class="control-label ">
+                                    Company Name
+                                </label>
+                                <asp:TextBox ID="TxtCompanyName" runat="server" CssClass="input-xxlarge"></asp:TextBox>
+                            </div>
+                            <div class="control-group" id="CompRegistrationNo" style="display: none">
+                                <label class="control-label ">
+                                    Company Registration No
+                                </label>
+                                <asp:TextBox ID="TxtRegistrationNo" runat="server" CssClass="input-xxlarge"></asp:TextBox>
+                            </div>
+                            <div class="control-group">
+                                @* <label class="control-label">
+                                    Country Name<span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>
+                                </label> *@
+                                <div class="controls">
+                                    <asp:DropDownList ID="ddlCountryNAmen" runat="server" CssClass="input-xxlarge" AutoPostBack="true" OnSelectedIndexChanged="ddlCountryNAme_SelectedIndexChanged" TabIndex="4">
+                                    </asp:DropDownList>
+       @*                             <asp:RequiredFieldValidator ID="rfvCountry" runat="server" ControlToValidate="ddlCountryNAme"
+                                                                     ErrorMessage="Please select a country." InitialValue="0" Display="Dynamic" ForeColor="OrangeRed"></asp:RequiredFieldValidator> *@
+                                </div>
+                            </div>
+                            <div id="Div4" class="control-group" visible="false" runat="server">
+                                <label class="control-label ">
+                                   @*  Phone No. *@
+                                </label>
+                                <asp:TextBox ID="txtPhNo" onkeypress="return isNumberKey(event);" CssClass="input-xxlarge"
+                                             runat="server" MaxLength="10" autocomplete="off"></asp:TextBox>
+                            </div>
+                            <div id="dvpin" runat="server">
+                                <div id="Div3" class="control-group " visible="false" runat="server">
+                                    <label class="control-label ">
+                                    @*     Address *@
+                                    </label>
+                                    <asp:TextBox ID="txtAddLn1" CssClass="input-xxlarge" runat="server" autocomplete="off"></asp:TextBox>
+                                </div>
+                                <div class="control-group " style="display: none;">
+                                    @* <label class="control-label ">
+                                        Area
+                                    </label> *@
+                                    <asp:DropDownList ID="DDlVillage" CssClass="input-xxlarge" runat="server" ValidationGroup="eInformation"
+                                                      autocomplete="off" onchange="FnVillageChange(this.value);">
+                                    </asp:DropDownList>
+                                </div>
+                                <div class="control-group" id="divVillage" style="display: none">
+                                    @* <label class="control-label ">
+                                        Area Name
+                                    </label> *@
+                                    <asp:TextBox ID="TxtVillage" CssClass="input-xxlarge" runat="server" autocomplete="off"></asp:TextBox>
+                                </div>
+                                </div>
+                            <div id="Dvfld" runat="server" visible="false">
+                                <div class="control-group">
+                                   @*  <label class="control-label ">
+                                        Same As Above<span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>
+                                    </label> *@
+                                    <asp:CheckBox ID="ChkSame" runat="server" onclick="return GetSameAsPostal()" />
+                                </div>
+                               @*  <h5>Postal Address</h5> *@
+                                <div class="control-group ">
+                                   @*  <label class="control-label ">
+                                        Address
+                                    </label> *@
+                                    <asp:TextBox ID="TxtPostalAddress" CssClass="input-xxlarge" runat="server" autocomplete="off"></asp:TextBox>
+                                </div>
+                                <div class="control-group ">
+                                    @* <label class="control-label ">
+                                        Pin code<span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>
+                                    </label> *@
+                                    <asp:TextBox ID="TxtPostPincode" CssClass="input-xxlarge" onkeypress="return isNumberKey(event);"
+                                                 runat="server" MaxLength="6" autocomplete="off" AutoPostBack="true"></asp:TextBox>
+                                </div>
+                                </<div>
+                                    <div class="control-group ">
+                                        @* <label class="control-label ">
+                                            State
+                                        </label> *@
+                                        <asp:TextBox ID="TxtpostState" runat="server" CssClass="input-xxlarge"
+                                                             autocomplete="off" Enabled="false"></asp:TextBox>
+                                        <asp:HiddenField ID="HPostStateCode" runat="server" />
+                                    </div>
+                                    <div class="control-group ">
+                                        @* <label class="control-label ">
+                                            District<span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>
+                                        </label> *@
+                                        <asp:TextBox ID="TxtPostDistrict" CssClass="input-xxlarge validate[required]" runat="server" autocomplete="off"
+                                                     Enabled="false"></asp:TextBox>
+                                        <asp:HiddenField ID="HPostDistrict" runat="server" />
+                                    </div>
+                                    <div class="control-group ">
+                                      @*   <label class="control-label ">
+                                            City<span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>
+                                        </label> *@
+                                        <asp:TextBox ID="TxtPostCity" CssClass="input-xxlarge validate[required]" runat="server" ValidationGroup="eInformation"
+                                                     autocomplete="off" Enabled="false"></asp:TextBox>
+                                        <asp:HiddenField ID="HPostCity" runat="server" />
+                                    </div>
+                                    <div class="control-group ">
+                                        @* <label class="control-label ">
+                                            Area
+                                        </label> *@
+                                        <asp:DropDownList ID="DDlPostVillage" CssClass="input-xxlarge" runat="server" ValidationGroup="eInformation"
+                                                          autocomplete="off" onchange="FnPostVillageChange(this.value);">
+                                        </asp:DropDownList>
+                                        <asp:HiddenField ID="HPostVillage" runat="server" />
+                                    </div>
+                                    <div class="control-group" id="divPostVillage" style="display: none">
+                                        @* <label class="control-label ">
+                                            Area Name
+                                        </label> *@
+                                        <asp:TextBox ID="TxtPostVillage" CssClass="input-xxlarge" runat="server" autocomplete="off"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div id="Div9" class="control-group " runat="server" visible="false">
+                                   @*  <label>
+                                        Wallet Address <%-- <span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>--%>
+                                    </label> *@
+                                    <asp:TextBox ID="TxtWalletaddress" CssClass="input-xxlarge" runat="server" autocomplete="off"
+                                                 Style="text-transform: none !important;"></asp:TextBox>
+    @*                                <asp:RequiredFieldValidator ID="RequiredFieldValidator9" Display="Dynamic" ControlToValidate="TxtWalletaddress"
+                                                                    runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="OrangeRed">Please Enter Wallet Address</asp:RequiredFieldValidator> *@
+                                    <asp:Label ID="LblWalletaddress" runat="server" CssClass="error" Visible="false" ForeColor="OrangeRed"></asp:Label>
+                                    <asp:HiddenField ID="HdnWalletAddress" runat="server" />
+                                    <asp:HiddenField ID="HiddenField4" runat="server" />
+                                    <asp:HiddenField ID="Hdnhhhgg" runat="server" />
+                                </div> 
+                                <div id="Div6" class="control-group" runat="server" style="display: none;">
+                                    <label class="control-label">
+                                        PAN No Available<span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>
+                                    </label>
+                                    <div class="col-sm-10">
+                                        <asp:RadioButtonList ID="RbtPan" runat="server" RepeatColumns="2" RepeatDirection="Horizontal"
+                                                             RepeatLayout="Table">
+                                            <asp:ListItem Text="Yes" Value="Y" Selected="True"></asp:ListItem>
+                                            <asp:ListItem Text="No" Value="N"></asp:ListItem>
+                                        </asp:RadioButtonList>
+                                        <span class="red">
+                                            <asp:Label ID="LblPanNoAvail" runat="server" Text="Payout will deduct 20%, If you not enter PAN NO."></asp:Label>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div id="Div22" class="control-group " runat="server">
+                                   @*  <label class="control-label ">
+                                        PAN No.<span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>
+                                    </label> *@
+                                    <div class="controls">
+                                        <asp:TextBox ID="txtPanNo" RepeatDirection="Horizontal" CssClass="input-xxlarge validate[custom[panno]]"
+                                                     runat="server" autocomplete="off" TabIndex="13"></asp:TextBox>
+                                        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="Please check PAN Format"
+                                                                        Display="Dynamic" SetFocusOnError="true" ControlToValidate="txtPanNo" ValidationExpression="[A-Za-z]{5}\d{4}[A-Za-z]{1}"
+                                                                        ValidationGroup="eInformation"></asp:RegularExpressionValidator>
+                                    </div>
+                                </div>
+                                <div id="dvname" runat="server" style="display: none;">
+                                    <div class="control-group">
+                                        <asp:TextBox ID="txtNominee" CssClass="input-xxlarge" runat="server" autocomplete="off"></asp:TextBox>
+                                    </div>
+                                    <div class="control-group ">
+                                        <asp:TextBox ID="txtRelation" CssClass="input-xxlarge" runat="server" autocomplete="off"></asp:TextBox>
+                                    </div>
+                                    <div id="divBankDetail" runat="server" style="display: none;">
+                                        <div class="control-group">
+                                            <asp:TextBox ID="TxtAccountNo" onkeypress="return isNumberKey(event);" CssClass="input-xxlarge"
+                                                         runat="server" MaxLength="16" autocomplete="off"></asp:TextBox>
+                                        </div>
+                                        <div class="control-group ">
+                                            <asp:DropDownList ID="DDLAccountType" runat="server" CssClass="input-xxlarge">
+                                                <asp:ListItem Text="CHOOSE ACCOUNT TYPE" Value="0" Selected="True"></asp:ListItem>
+                                                <asp:ListItem Text="SAVING ACCOUNT" Value="SAVING ACCOUNT"></asp:ListItem>
+                                                <asp:ListItem Text="CURRENT ACCOUNT" Value="CURRENT ACCOUNT"></asp:ListItem>
+                                            </asp:DropDownList>
+                                        </div>
+                                        <div class="control-group">
+                                            <asp:DropDownList ID="CmbBank" runat="server" CssClass="input-xxlarge" onchange="FnBankChange(this.value);"
+                                                              autocomplete="off">
+                                            </asp:DropDownList>
+                                        </div>
+                                        <div class="control-group" id="divBank" style="display: none">
+                                            <asp:TextBox ID="TxtBank" CssClass="input-xxlarge" runat="server" autocomplete="off"></asp:TextBox>
+                                        </div>
+                                        <div class="control-group">
+                                            <asp:TextBox ID="TxtBranchName" CssClass="input-xxlarge" runat="server" autocomplete="off"></asp:TextBox>
+                                        </div>
+                                        <div class="control-group">
+                                            <asp:TextBox ID="txtIfsCode" runat="server" CssClass="input-xxlarge" autocomplete="off"></asp:TextBox>
+                                        </div>
+                                        <div class="control-group" style="display: none;">
+                                            <asp:TextBox ID="TxtMICR" CssClass="input-xxlarge" runat="server" autocomplete="off"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div id="Div7" class="control-group " style="display: none;">
+                                        <div class="row">
+                                            <div class="col-sm-3  p0 pl10">
+                                                <asp:TextBox ID="TxtAAdhar1" CssClass="input-xxlarge" runat="server" onkeypress="return isNumberKey(event);"
+                                                             MaxLength="4" autocomplete="off"></asp:TextBox>
+                                            </div>
+                                            <div class="col-sm-1  p0 pl10" style="text-align: center">
+                                            </div>
+                                            <div class="col-sm-3  p0 pl10">
+                                                <asp:TextBox ID="TxtAadhar2" CssClass="input-xxlarge" runat="server" onkeypress="return isNumberKey(event);"
+                                                             MaxLength="4" autocomplete="off"></asp:TextBox>
+                                            </div>
+                                            <div class="col-sm-1  p0 pl10" style="text-align: center">
+                                            </div>
+                                            <div class="col-sm-3  p0 pl10">
+                                                <asp:TextBox ID="TxtAadhar3" CssClass="input-xxlarge" runat="server" onkeypress="return isNumberKey(event);"
+                                                             MaxLength="4" autocomplete="off"></asp:TextBox>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="divpay" runat="server" style="display: none;">
+                                        <div class="control-group">
+                                            <asp:DropDownList ID="DdlPaymode" runat="server" AutoPostBack="true" CssClass="input-xxlarge"
+                                                              autocomplete="off">
+                                            </asp:DropDownList>
+                                        </div>
+                                        <asp:Label ID="errMsg" runat="server" CssClass="error"></asp:Label>
+                                        <asp:HiddenField ID="HdnCheckTrnns" runat="server" />
+                                        <div class="control-group">
+                                            <label class="control-label ">
+                                                <asp:Label ID="LblDDNo" runat="server" Text="Draft/CHEQUE No. *"></asp:Label>
+                                            </label>
+                                            <asp:TextBox ID="TxtDDNo" CssClass="input-xxlarge" runat="server" MaxLength="15" autocomplete="off"></asp:TextBox>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label ">
+                                                <asp:Label ID="LblDDDate" runat="server" Text="Draft/CHEQUE Date *"></asp:Label>
+                                            </label>
+                                            <asp:TextBox ID="TxtDDDate" runat="server" CssClass="input-xxlarge" autocomplete="off"></asp:TextBox>
+                                            <ajaxToolkit:CalendarExtender ID="CalendarExtender1" runat="server" TargetControlID="TxtDDDate"
+                                                                          Format="dd-MMM-yyyy"></ajaxToolkit:CalendarExtender>
+                                        </div>
+                                        <div class="control-group">
+                                            <asp:TextBox ID="TxtIssueBank" CssClass="input-xxlarge" runat="server" autocomplete="off"></asp:TextBox>
+                                        </div>
+                                        <div class="control-group ">
+                                            <asp:TextBox ID="TxtIssueBranch" CssClass="input-xxlarge" runat="server" autocomplete="off"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="divlogin" runat="server" visible="false">
+                                    @* <h4>Login Information</h4> *@
+                                    <div class="control-group ">
+                                       @*  <label class="control-label ">
+                                            Password<span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>
+                                        </label> *@
+                                        <asp:TextBox ID="TxtPasswd" class="validate[required,minSize[5],maxSize[10]] input-xxlarge"
+                                                     runat="server" TextMode="Password" ValidationGroup="eInformation" autocomplete="off"></asp:TextBox>
+                                    </div>
+                                    <div id="Div8" class="control-group" visible="false" runat="server">
+                                       @*  <label class="control-label ">
+                                            Transaction Password<span style="color: Red; font-weight: bold; font-size: 1.4em">*</span>
+                                        </label> *@
+                                        <asp:TextBox ID="TxtTransactionPassword" class="validate[required,minSize[5],maxSize[10]] input-xxlarge"
+                                                     runat="server" TextMode="Password" ValidationGroup="eInformation" autocomplete="off"></asp:TextBox>
+                                    </div>
+                                </div>
+                               @*  <asp:Image ID="imgCaptcha" runat="server" ImageUrl="CreateCaptcha.aspx?New=1" Height="30px"
+                                           Visible="false" />
+                                <br /> *@
+                                <b style="display: none;">Please Enter Captcha Code *</b>
+                                <asp:TextBox ID="txtCaptcha" CssClass="input-xxlarge" Style="text-transform: none;"
+                                             style="display: none;" runat="server"></asp:TextBox>
+                                <asp:Label ID="lblErrEpin" runat="server" CssClass="error" style="display: none;"></asp:Label>
+
+                                <div class="form-group col-md-6">
+                                    <label>Sponsor Name</label>
+                                    <input type="text"
+                                           id="txtFullName"
+                                           name="txtFullName"
+                                           class="form-control"
+                                           placeholder="Full Name"
+                                           readonly />
+                                    <input type="hidden" id="txtFormNo" />
+                                    <input type="hidden" id="txtKitId" />
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label>Full Name</label>
+                                    <input type="text" id="txtName" name="txtName" class="form-control" placeholder="Enter Full Name" required>
+                                   
+                                </div>
+                                <div class="form-group col-md-6" style="display: none;">
+                                <label>Gender</label>
+                                    <select name="Gender" id="RBTtype" class="form-control">
+                                        <option value="M">Male</option>
+                                        <option value="F">Female</option>
+                                    </select>
+
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label>Country</label>
+                                    <select id="ddlCountryNAme" name="ddlCountryNAme" class="form-control" required>
+                                        <option value="">-- Select Country --</option>
+                                        @foreach (var country in Model.CountryTypes)
+                                        {
+                                            <option value="@country.Cid">@country.CountryName</option>
+                                        }
+                                    </select>
+
+
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Pin code</label>
+                                    <input type="text"
+                                           id="txtPinCode"
+                                           name="Pincode"
+                                           class="form-control"
+                                           placeholder="Pin Code"
+                                           maxlength="6"
+                                           inputmode="numeric"
+                                           autocomplete="off"
+                                           required>
+
+
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>State*</label>
+                                    <select id="ddlStatename"
+                                            name="ddlStatename"
+                                            class="form-control"
+                                            required>
+                                        <option value="">-- Select State --</option>
+                                        @foreach (var state in Model.StateTypes)
+                                        {
+                                            <option value="@state.StateCode">@state.StateName</option>
+                                        }
+                                    </select>
+
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>District*</label>
+                                    <input type="text"
+                                           id="txtDistrict"
+                                           name="District"
+                                           class="form-control"
+                                           placeholder="District"
+                                           required>
+
+
+
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>City*</label>
+                                    <input type="text"
+                                           id="txtCity"
+                                           name="City"
+                                           class="form-control"
+                                           placeholder="City"
+                                           required>
+
+                            </div>
+                                <div class="form-group col-md-6">
+                                    <label>MobileNo*</label>
+                                    <input type="text"
+                                           id="txtMobileNo"
+                                           name="MobileNo"
+                                           class="form-control"
+                                           onkeypress="return isNumberKey(event)"
+                                           maxlength="10">
+
+
+                                </div>
+                                <div class="control-group" style="display: none;">
+                                    <label class="control-label">
+                                        <label>Mobile No.</label>
+                                    </label>
+                                    <div class="controls">
+                                        <div class="span1">
+                                            <asp:TextBox ID="ddlMobileNAme" CssClass="input-xxlarge" runat="server" ValidationGroup="eInformation"
+                                                         autocomplete="off" Enabled="false" TabIndex="5"></asp:TextBox>
+                                        </div>
+                                        <asp:TextBox ID="txtMobileNoo" onkeypress="return isNumberKey(event);" CssClass="input-xxlarge validate[required,custom[mobile]]"
+                                                     runat="server" ValidationGroup="eInformation" autocomplete="off" MaxLength="10" TabIndex="6"></asp:TextBox>
+@*                                         <asp:RequiredFieldValidator ID="RequiredFieldValidator6" Display="Dynamic" ControlToValidate="txtMobileNo"
+                                                                        runat="server" ErrorMessage="RequiredFieldValidator" ForeColor="OrangeRed">Please Enter Mobile No</asp:RequiredFieldValidator> *@
+                                        <asp:Label ID="LblMobile" runat="server" CssClass="error" Visible="false" ForeColor="OrangeRed"></asp:Label>
+                                    </div>
+                                </div>
+
+                            @*  <div class="form-group col-md-6">
+                            <label>Contact Information</label>
+                            <input type="ddlMobileNAme" name="StdCode" class="form-control w-25" readonly>
+                            <input type="text" name="MobileNo" class="form-control w-75" maxlength="10" required>
+                                <div class="span1">
+                                <asp:TextBox ID="ddlMobileNAme" CssClass="input-xxlarge " runat="server" ValidationGroup="eInformation"
+                                autocomplete="off" Enabled="false" TabIndex="5"></asp:TextBox>
+                                </div>
+                            </div>  *@
+                            <div class="form-group col-md-6">
+                                <label>Email</label>
+                                    <input type="email"
+                                           id="EmailId"
+                                           name="EmailId"
+                                           class="form-control"
+                                           placeholder="Email"
+                                           required />
+
+
+                                    <asp:Label ID="LblEmainID" runat="server" CssClass="error" Visible="false" ForeColor="OrangeRed"></asp:Label>
+                            </div>
+                                <div class="form-group col-md-6" style="display:none;">
+                                    <label>Date of Birth</label>
+                                    <input type="date" id="txtdob" name="txtdob" class="form-control">
+                                </div>
+
+                                <div class="form-group col-md-6" style="display:none;">
+                                <label>PanNo</label>
+                                    <input type="txtPanNo" name="PanNo" class="form-control" placeholder="Pan No" required>
+                            </div>
+                            <div class="card-body">
+                                    <div class="form-check mt-2">
+                                        <input type="hidden" name="AgreeTerms" value="false" />
+                                        <input class="form-check-input"
+                                               type="checkbox"
+                                               id="chkterms"
+                                               name="AgreeTerms"
+                                               value="true"
+                                               runat="server"
+                                               onclick="DivOnOff();"
+                                               required>
+
+                                        <label class="form-check-label">
+                                            I Agree With <a href="#" data-toggle="modal" data-target="#myModalTerm">Terms and Conditions</a>.
+                                        </label>
+                                    </div>
+
+                            </div>
+
+                        </div>
+                        <div class="mt-6">
+                                <button type="button" id="btnRegister" class="btn btn-primary">
+                                    Submit
+                                </button>
+
+                                <asp:Button ID="CmdCancel" runat="server" Text="Cancel" CssClass="btn btn-primary"
+                                            ValidationGroup="eCancel" Visible="false" TabIndex="16" />
+                        </div>
+                    </form>
                 </div>
-
-                <!-- BODY -->
-                <div class="modal-body">
-
-                    <!-- Sponsor -->
-                    <div class="input-group mb-3">
-                        <span class="input-group-text">Sponsor ID</span>
-                        <input type="text" name="SponsorId" class="form-control" required>
-                    </div>
-
-                    <!-- Full Name -->
-                    <div class="input-group mb-3">
-                        <span class="input-group-text">Full Name</span>
-                        <input type="text" name="FullName" class="form-control" required>
-                    </div>
-
-                    <!-- Gender -->
-                    <div class="input-group mb-3">
-                        <span class="input-group-text">Gender</span>
-                        <select name="Gender" class="form-control">
-                            <option value="M">Male</option>
-                            <option value="F">Female</option>
-                        </select>
-                    </div>
-
-                    <!-- Country -->
-                    <div class="input-group mb-3">
-                        <span class="input-group-text">Country</span>
-                        <select name="CountryId" class="form-control" required>
-                            <option value="">-- Select Country --</option>
-                            @foreach (var c in ViewBag.Countries)
-                            {
-                                <option value="@c.Id">@c.Name</option>
-                            }
-                        </select>
-                    </div>
-
-                    <!-- Mobile -->
-                    <div class="input-group mb-3">
-                        <input type="text" name="StdCode" class="form-control w-25" readonly>
-                        <input type="text" name="MobileNo" class="form-control w-75"
-                               maxlength="10" required>
-                    </div>
-
-                    <!-- Email -->
-                    <div class="input-group mb-3">
-                        <span class="input-group-text">Email</span>
-                        <input type="email" name="Email" class="form-control" required>
-                    </div>
-
-                    <!-- DOB -->
-                    <div class="input-group mb-3">
-                        <span class="input-group-text">DOB</span>
-                        <input type="date" name="Dob" class="form-control" required>
-                    </div>
-
-                    <!-- PAN -->
-                    <div class="input-group mb-3">
-                        <span class="input-group-text">PAN No</span>
-                        <input type="text" name="PanNo" class="form-control" required>
-                    </div>
-
-                    <!-- TERMS -->
-                    <div class="form-check mt-2">
-                        <input type="hidden" name="AgreeTerms" value="false" />
-                        <input class="form-check-input" type="checkbox"
-                               name="AgreeTerms" value="true" required>
-                        <label class="form-check-label">
-                            I Agree With <a href="#">Terms And Condition</a>
-                        </label>
-                    </div>
-
-                </div>
-
-                <!-- FOOTER -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary"
-                            data-coreui-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Save</button>
-                </div>
-
-            </form>
-
+            </div>
         </div>
-    </div>
+    </section>
+    <script>
+        $(document).ready(function () {
+
+            $("#SponsorId").on("blur", function () {
+                debugger;
+
+                var sponsorId = $(this).val().trim();
+
+                if (sponsorId === "") {
+                    return;
+                }
+
+                $.ajax({
+                    url: '/Registration/GetSponsorName',
+                    type: 'GET',
+                    data: { sponsorId: sponsorId },
+                    success: function (response) {
+
+                        if (response.success) {
+                            $("#txtFullName").val(response.fullName);
+                            $("#txtFormNo").val(response.formNo);
+                            $("#txtKitId").val(response.kitId);
+                        } else {
+                            alert(response.message || "Sponsor not found");
+                            $("#SponsorId").val("");
+                            clearFields();
+                        }
+                    },
+                    error: function () {
+                        alert("Server error. Try later.");
+                    }
+                });
+            });
+
+            $("#btnRegister").on("click", function (e) {
+                e.preventDefault();
+                registerUser();
+            });
+
+        });
+
+        function clearFields() {
+            $("#txtFullName").val("");
+            $("#txtFormNo").val("");
+            $("#txtKitId").val("");
+        }
+
+
+        function registerUser() {
+            debugger;
+
+            var sponsorId = $("#SponsorId").val().trim();
+            if (!sponsorId) {
+                alert("Sponsor ID is required");
+                return;
+            }
+
+            var model = {
+                SponsorId: $("#SponsorId").val(),
+                // FullName: $("#txtFullName").val(),
+                MemFirstName: $("#txtName").val(),
+                EmailId: $("#EmailId").val(),
+                Gender: $("#RBTtype").val(),
+
+                City: $("#txtCity").val(),
+                District: $("#txtDistrict").val(),
+                PinCode: Number($("#txtPinCode").val()),
+
+                CountryId: Number($("#ddlCountryNAme").val()),
+                Country: $("#ddlCountryNAme option:selected").text(),
+
+                StateCode: Number($("#ddlStatename").val()),
+                State: $("#ddlStatename option:selected").text(),
+
+                MobileNo: $("#txtMobileNo").val(),
+                RefFormNo: Number($("#txtFormNo").val()),
+                KitId: Number($("#txtKitId").val()),
+
+                IsTermsAccepted: $("#chkterms").is(":checked")
+            };
+
+            console.log("SENDING MODEL 👉", model);
+
+            $.ajax({
+                url: '/Registration/Registration',
+                type: 'POST',
+                contentType: 'application/json; charset=utf-8',
+                data: JSON.stringify(model),
+
+                success: function (response) {
+                    debugger;
+                    console.log("SERVER RESPONSE 👉", response);
+
+                    if (response.success && response.redirectUrl) {
+                        alert(response.message);
+
+                        // 🔥 FORCE redirect
+                        window.location.assign(response.redirectUrl);
+                    }
+                    else {
+                        alert(response.message || "Registration failed");
+                    }
+                },
+                error: function (xhr) {
+                    alert("Server error");
+                    console.error(xhr.responseText);
+                }
+            });
+        }
+
+
+
+        $("#txtPinCode").on("input", function () {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        });
+        function isNumberKey(evt) {
+            var charCode = evt.which ? evt.which : evt.keyCode;
+            if (charCode < 48 || charCode > 57)
+                return false;
+            return true;
+        }
+    </script>
+
+
+    
+
+
 </div>
+
